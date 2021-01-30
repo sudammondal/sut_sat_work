@@ -1,0 +1,23 @@
+.preaum {
+    padding: 77px 0;
+    .preaum_main {
+        max-width: 1000px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        line-height: 1.8;
+        a {
+            color: #222222;
+        }
+        .mobil {
+            h2 {
+                margin-bottom: 0;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

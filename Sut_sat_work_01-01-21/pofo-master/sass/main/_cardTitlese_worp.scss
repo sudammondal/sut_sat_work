@@ -1,0 +1,107 @@
+.cardTitlese_worp {
+    background-color: #f7f7f7;
+    padding: 130px 0;
+    .marginauto {
+        max-width: 520px;
+        margin: 0 auto;
+        .cardPr {
+            font-size: 12px;
+            font-weight: 500;
+            margin: 0;
+            color: #939393;
+        }
+        .cardHed {
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 600;
+            color: #232323;
+            margin-bottom: 57px;
+        }
+    }
+    .cardGrup {
+        .mainCard {
+            border: 0;
+            border-radius: 0;
+            background-color: #fff;
+            a {
+                position: relative;
+                text-decoration: none;
+                .cardimg {
+                    border-radius: 0;
+                }
+                .bloghovericon {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all 0.5s;
+                    .weightplus {
+                        font-size: 60px;
+                        color: #fff;
+                        position: absolute;
+                        top: 60%;
+                        left: 46%;
+                        transition: all 0.5s;
+                    }
+                }
+                
+            }
+            
+            .cardBody {
+                padding: 30px;
+                .cardTitle {
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 500;
+                    transition: all 0.5s;
+                    &:hover {
+                        color: #ff214f;
+                    }
+                }
+                .cardpara { 
+                    margin: 15px 0;
+                    color: #939393;
+                    font-size: 14px;
+
+                }
+                .separatorline {
+                    width: 100%;
+                    background: #dbdbdb;
+                    height: 1px;
+                    margin: 30px 0;
+                }
+                .card-text {
+                    .text-muted {
+                        font-weight: 400;
+                        font-size: 12px;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+        
+        &:hover {
+            .mainCard {
+                a {
+                    .bloghovericon {
+                        height: 100%;
+                        width: 100%;
+                        background: rgba(0, 0, 0, 0.5);
+                        top: 0;
+                        left: 0;
+                        opacity: 1;
+                        .weightplus {
+                            transition: all 0.5s;
+                            top: 42%;
+                            left: 46%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

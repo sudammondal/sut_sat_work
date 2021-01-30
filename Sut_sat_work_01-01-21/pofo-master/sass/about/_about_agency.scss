@@ -1,0 +1,104 @@
+.about_agency {
+    background-image: url(../imgs/parallax-bg18.jpg);
+        background-size: cover;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 130px 0;
+    .marginauto {
+        max-width: 595px;
+        margin: 0 auto;
+        .cardHed {
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 700;
+            color: #232323;
+            margin: 0 0 25px;
+            padding: 0;
+            
+        }
+        .cardPr {
+            font-size: 13px;
+            font-weight: 500;
+            padding: 0;
+            color: #6f6f6f;
+            margin-bottom: 95px;
+        }
+        
+    }
+    .cardGrup {
+        .mainCard {
+            text-align: center;
+            border: 0;
+            border-radius: 0;
+            background-color: #fff;
+            a {
+                position: relative;
+                text-decoration: none;
+                .cardimg {
+                    border-radius: 0;
+                }
+                .bloghovericon {
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all 0.5s;
+                    .weightplus {
+                        font-size: 60px;
+                        color: #fff;
+                        position: absolute;
+                        top: 60%;
+                        left: 46%;
+                        transition: all 0.5s;
+                    }
+                }
+                
+            }
+            
+            .cardBody {
+                padding: 30px;
+                .cardTitle {
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 500;
+                    transition: all 0.5s;
+                    &:hover {
+                        color: #ff214f;
+                    }
+                }
+                .cardpara { 
+                    margin: 15px 0;
+                    color: #939393;
+                    font-size: 14px;
+
+                }
+            }
+        }
+        
+        &:hover {
+            .mainCard {
+                a {
+                    .bloghovericon {
+                        height: 100%;
+                        width: 100%;
+                        background: rgba(0, 0, 0, 0.5);
+                        top: 0;
+                        left: 0;
+                        opacity: 1;
+                        .weightplus {
+                            transition: all 0.5s;
+                            top: 42%;
+                            left: 46%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

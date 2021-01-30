@@ -1,0 +1,45 @@
+.Unique {
+    background-color: #1c1c1c;
+    .castomBanner {
+        background-image: url(../imgs/homepage-option15-image-4.jpg);
+        position: relative !important;
+        background-size: cover !important;
+        overflow: hidden !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        min-height: 676px;
+    }
+    .castomPading {
+        padding: 60px 85px;
+        .heaB {
+            .hed_text{
+                color: #fff;
+                font-weight: 500;
+                margin-bottom: 45px;
+                font-size: 40px;
+                line-height: 46px;
+            }
+        }
+        .fadItem {
+            color: #d6d5d5;
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-size: 14px;
+            .intgerSpan {
+                color: red;
+                font-size: 18px;
+                margin-right: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+        p {
+            margin-bottom: 25px;
+            font-size: 14px;
+            font-family: 'Roboto', sans-serif;
+            color: #6f6f6f;
+            font-weight: 400;
+            height: 1.5;
+        }
+    }
+    
+}

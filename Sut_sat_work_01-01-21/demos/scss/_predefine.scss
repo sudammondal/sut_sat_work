@@ -1,0 +1,54 @@
+.p0{
+    padding: 0px;
+}
+.list_style{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration:none;
+    &:hover, &:focus{
+       text-decoration:none;
+    }
+}
+.row.m0{
+    margin: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+}
+body{
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 0;
+    font: 400 15px/26px $pop;
+    color: #838999;
+}
+
+a,.btn,button{
+    text-decoration: none;
+    outline: none;
+    transition: all 0.2s linear;
+    &:hover,&:focus{
+        text-decoration: none;
+        outline: none;
+    }
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.container{
+    @media (min-width:1250px){
+        max-width: 1200px;
+    }
+    @media (max-width:767px){
+        max-width: 100%;
+    }
+}
+

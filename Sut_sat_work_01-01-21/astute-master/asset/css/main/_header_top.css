@@ -1,0 +1,165 @@
+.header_top {
+  background-color: #121212;
+  padding: 11px 0; }
+  .header_top .top_head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .header_top .top_head .contac.margin_left {
+      margin-left: 21px; }
+    .header_top .top_head .contac a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #fff; }
+      .header_top .top_head .contac a i {
+        font-size: 13px;
+        color: #eb1b2b;
+        margin-right: 7px; }
+    .header_top .top_head .icon_manu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .header_top .top_head .icon_manu .icon_list {
+        margin-left: 5px; }
+        .header_top .top_head .icon_manu .icon_list .icons {
+          color: #fff;
+          display: inline-block;
+          margin-left: 15px;
+          font-size: 14px;
+          font-weight: 300; }
+          .header_top .top_head .icon_manu .icon_list .icons:hover {
+            color: #eb1b2b; }
+
+header.header {
+  background: #fff;
+  padding: 5px 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 1080; }
+  header.header .navbar {
+    padding: 0; }
+    header.header .navbar .logoBrand {
+      display: none; }
+    header.header .navbar .logoBrand2 {
+      display: block; }
+    header.header .navbar button {
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none;
+      padding: 0;
+      margin: 0;
+      width: 25px;
+      position: relative;
+      height: 15px; }
+      header.header .navbar button .bar {
+        width: 100%;
+        height: 2px;
+        background-color: #eb1b2b;
+        position: absolute;
+        right: 0;
+        display: block;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        header.header .navbar button .bar:nth-child(1) {
+          top: 0; }
+        header.header .navbar button .bar:nth-child(2) {
+          top: 50%; }
+        header.header .navbar button .bar:nth-child(3) {
+          top: 100%; }
+      header.header .navbar button[aria-expanded="true"] .bar:nth-child(1) {
+        top: 50%;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
+      header.header .navbar button[aria-expanded="true"] .bar:nth-child(2) {
+        opacity: 0; }
+      header.header .navbar button[aria-expanded="true"] .bar:nth-child(3) {
+        top: 50%;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg); }
+    header.header .navbar .maincollaps .main_manu li a {
+      display: inline-block;
+      padding: 32px 5px;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      position: relative;
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif; }
+      header.header .navbar .maincollaps .main_manu li a.nav-link {
+        margin: 0 3px; }
+    header.header .navbar .maincollaps .main_manu li:hover {
+      background: transparent; }
+      header.header .navbar .maincollaps .main_manu li:hover a {
+        color: #eb1b2b; }
+    header.header .navbar .maincollaps .donate_button .donatebtn {
+      display: block;
+      text-decoration: none;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-align: center;
+      background: #eb1b2b;
+      border: 1px solid red;
+      padding: 10px 30px;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 500;
+      line-height: 20px;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 30px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      header.header .navbar .maincollaps .donate_button .donatebtn:hover {
+        background: transparent;
+        border-color: #fff;
+        color: #eb1b2b;
+        -webkit-box-shadow: 0px 7px 20px 0px #00000057;
+        box-shadow: 0px 7px 20px 0px #00000057; }
+  header.header.fixedMenu {
+    background: #000; }
+    header.header.fixedMenu .navbar {
+      padding: 0; }
+      header.header.fixedMenu .navbar .logoBrand {
+        display: block; }
+      header.header.fixedMenu .navbar .logoBrand2 {
+        display: none; }
+      header.header.fixedMenu .navbar button .bar {
+        background-color: #fff; }
+      header.header.fixedMenu .navbar .maincollaps .main_manu li a {
+        color: #fff;
+        padding: 22px 5px; }
+      header.header.fixedMenu .navbar .maincollaps .main_manu li:hover {
+        background: transparent; }
+        header.header.fixedMenu .navbar .maincollaps .main_manu li:hover a {
+          color: #eb1b2b; }
+      header.header.fixedMenu .navbar .maincollaps .donate_button .donatebtn {
+        border-color: #fff;
+        background-color: transparent; }
+        header.header.fixedMenu .navbar .maincollaps .donate_button .donatebtn:hover {
+          background: #eb1b2b;
+          border-color: #eb1b2b;
+          color: #fff;
+          -webkit-box-shadow: 0px 7px 20px 0px #00000057;
+          box-shadow: 0px 7px 20px 0px #00000057; }

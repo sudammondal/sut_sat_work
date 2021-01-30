@@ -1,0 +1,145 @@
+.MEMBER_revew {
+    margin: 100px 0 0;
+    overflow: hidden;
+    .MissionTitle {
+        position: relative;
+        &::before {
+            width: 2px;
+            height: 100%;
+            top: 3px;
+            right: 35px;
+            background: #eb1b2b;
+            content: "";
+            position: absolute;
+        }
+        &::after {
+            width: 2px;
+            height: 100%;
+            top: 3px;
+            right: 40px;
+            background: #eb1b2b;
+            content: "";
+            position: absolute;
+
+        }
+        .Missionsub {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+
+        }
+        .Missionhead {
+            margin-bottom: 0px;
+            font-weight: 600;
+            line-height: 1.2;
+            font-size: 40px;
+        }
+    }
+    .massionPra {
+        max-width: 495px;
+        width: 100%;
+        font-size: 14px;
+        padding-top: 12px;
+        margin: 0 0 0 -40px;
+    }
+
+    .testmonials_slied {
+        padding: 33px 0 82px;
+        .main_slieda_ttstmonials {
+            .test_slid_items {
+                outline: none;
+                padding: 0px;
+                background-color: #fff;
+                transition: all 0.5s;
+                margin: 0px 15px 0;
+                .test_item{
+                    display: flex;
+                    margin: 10px 6px 0;
+                    .list_item {
+                        margin-right: 20px;
+                    }
+                    .test_title {
+                        padding-top: 15px;
+                        .slid_hed {
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: #333;
+                            
+                        }
+                        .slid_pra {
+                            font-size: 14px;
+                            font-weight: 400;
+                            text-transform: capitalize;
+                            color: #333;
+                            margin: 0;
+
+                        }
+                    }
+                }
+                .slid_pra2 {
+                    color: #333;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 1.6;
+                    padding-top: 15px;
+                    max-width: 330px;
+                    width: 100%;
+                    margin: 0 5px 35px;
+
+                }
+                &:hover {
+                    box-shadow: 0px 10px 40px 0px rgba(148,146,245,0.2);
+                }
+            }
+        }
+        .slick-arrow {
+            z-index: 3;
+            width: 40px;
+            height: 40px;
+            transition: all 0.5s;
+            opacity: 0;
+            visibility: hidden;
+            &::before {
+                font-family: 'FontAwesome';
+                border: 1px solid #eb1b2b;
+                padding: 10px;
+                border-radius: 40px;
+                font-size: 20px;
+                transition: all 0.5s;
+                color: #eb1b2b;
+            }
+    
+            &:hover {
+                &::before {
+                    background-color: #eb1b2b;
+                    color: #fff;
+                }
+            }
+    
+            &.slick-prev {
+                left: -60px;
+            }
+    
+            &.slick-next {
+                right: -60px;
+            }
+        }
+    
+        &:hover {
+            .slick-arrow {
+                opacity: 1;
+                visibility: visible;
+                &.slick-prev {
+                    left: -25px;
+                }
+    
+                &.slick-next {
+                    right: -25px;
+                }
+            }
+    
+        }
+    
+    }
+}

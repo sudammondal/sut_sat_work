@@ -1,0 +1,160 @@
+ol.flex-control-nav.flex-control-thumbs {
+  position: absolute;
+  left: 0;
+  top: 48px; }
+
+.flex-control-thumbs li {
+  width: auto;
+  float: left;
+  margin: 0; }
+
+.flex-control-thumbs {
+  margin: 0;
+  position: static;
+  overflow: hidden; }
+
+.flex-control-thumbs img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  max-width: 80px; }
+
+.allClactions {
+  margin: 50px 0; }
+  .allClactions .clactions .Claction_Main {
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative; }
+    .allClactions .clactions .Claction_Main .topslider {
+      position: absolute;
+      z-index: 2;
+      max-width: 150px;
+      width: 100%;
+      opacity: .5; }
+      .allClactions .clactions .Claction_Main .topslider .top_slider {
+        margin-left: -2px;
+        margin-right: -2px; }
+        .allClactions .clactions .Claction_Main .topslider .top_slider .top_slider_item {
+          padding: 0 2px; }
+    .allClactions .clactions .Claction_Main .flixlider {
+      position: relative;
+      background: url("../imgs/collectiomn/8-1.jpg") no-repeat scroll top left/cover;
+      width: 100%;
+      height: 400px;
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease; }
+      .allClactions .clactions .Claction_Main .flixlider:hover {
+        background-image: url("../imgs/collectiomn/8-2.jpg"); }
+      .allClactions .clactions .Claction_Main .flixlider .flex_vewport {
+        height: 604.281px; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slider_item a {
+          display: block; }
+          .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slider_item a img {
+            width: 100%;
+            height: 400px; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-arrow {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: rgba(255, 255, 255, 0.8);
+          z-index: 2;
+          -webkit-transition: color .4s ease;
+          -o-transition: color .4s ease;
+          transition: color .4s ease; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-prev {
+          left: 5px; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-next {
+          right: 5px; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-prev:before,
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-next:before {
+          font-family: 'slick';
+          font-size: 19px;
+          line-height: 1;
+          opacity: .75;
+          color: rgba(0, 0, 0, 0.8);
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-prev,
+        .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-next {
+          visibility: hidden;
+          opacity: 0;
+          -webkit-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease; }
+          .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-prev:hover,
+          .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-next:hover {
+            background-color: #5e5e5f; }
+            .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-prev:hover::before,
+            .allClactions .clactions .Claction_Main .flixlider .flex_vewport .slied_worp .slick-next:hover::before {
+              color: #ffffff; }
+      .allClactions .clactions .Claction_Main .flixlider .butn .clec_button {
+        -webkit-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease;
+        position: absolute;
+        display: block;
+        opacity: 0;
+        bottom: 7px;
+        left: 0;
+        right: 0;
+        width: calc(100% - 12px);
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 8px 0;
+        height: auto;
+        text-align: center;
+        background-color: #eee;
+        color: #333;
+        text-shadow: none;
+        text-decoration: none; }
+        .allClactions .clactions .Claction_Main .flixlider .butn .clec_button i {
+          font-size: 16px;
+          margin-right: 8px; }
+        .allClactions .clactions .Claction_Main .flixlider .butn .clec_button:hover {
+          color: #ffffff;
+          background-color: #444; }
+    .allClactions .clactions .Claction_Main .claction_title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 15px 3px; }
+      .allClactions .clactions .Claction_Main .claction_title .product-title {
+        margin-bottom: 7px; }
+        .allClactions .clactions .Claction_Main .claction_title .product-title .prodact_h3 {
+          font-size: 17px;
+          font-weight: 700;
+          margin: 0;
+          font-family: 'Karla', sans-serif; }
+          .allClactions .clactions .Claction_Main .claction_title .product-title .prodact_h3 a {
+            color: #333;
+            text-decoration: none; }
+        .allClactions .clactions .Claction_Main .claction_title .product-title span a {
+          text-decoration: none;
+          color: #999; }
+      .allClactions .clactions .Claction_Main .claction_title .product-price {
+        margin-bottom: 0;
+        font-size: 15px; }
+        .allClactions .clactions .Claction_Main .claction_title .product-price ins {
+          font-weight: 700;
+          color: #444;
+          text-decoration: none; }
+    .allClactions .clactions .Claction_Main.activess .flixlider .flex_vewport .slied_worp .slick-prev,
+    .allClactions .clactions .Claction_Main.activess .flixlider .flex_vewport .slied_worp .slick-next, .allClactions .clactions .Claction_Main:hover .flixlider .flex_vewport .slied_worp .slick-prev,
+    .allClactions .clactions .Claction_Main:hover .flixlider .flex_vewport .slied_worp .slick-next {
+      visibility: visible;
+      opacity: 1; }
+    .allClactions .clactions .Claction_Main.activess .flixlider .butn .clec_button, .allClactions .clactions .Claction_Main:hover .flixlider .butn .clec_button {
+      opacity: 1;
+      z-index: 2; }

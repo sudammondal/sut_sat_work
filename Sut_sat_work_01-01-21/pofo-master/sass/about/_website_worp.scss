@@ -1,0 +1,46 @@
+.website_worp {
+    padding: 130px 0;
+    .website {
+        .website_head{
+            color: #232323;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .framework{
+            display: flex;
+            .number_hed {
+                margin: 0 35px;
+                .number {
+                    color: #d6d5d5;
+                    letter-spacing: -3px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                    font-size: 55px;
+                    line-height: 60px;
+                }
+            }
+            .framework_title {
+                .title_head {
+                    font-size: 20px;
+                    color: #232323;
+                    margin-bottom: 5px;
+                    font-size: 16px;
+                    line-height: 23px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                    display: block;
+                }
+                .title_prag {
+                    font-size: 14px;
+                    color: #6f6f6f;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-right: 20px;
+                    
+                }
+            }
+        }
+    }
+}

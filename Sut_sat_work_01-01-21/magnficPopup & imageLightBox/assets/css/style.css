@@ -1,0 +1,508 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5E5C7F;
+  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.home_header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5E5C7F;
+}
+
+.vimeopading {
+  padding-top: 50px;
+}
+
+.header {
+  background-color: #f6f6f6;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+  z-index: 10;
+}
+.header.fixedMenu {
+  background-color: #fff;
+  padding: 5px 0;
+  box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+}
+.header.fixedMenu .nav_bar {
+  transition: all 0.5s;
+}
+.header.fixedMenu .nav_bar .navbar-brand {
+  transform: scale(1);
+}
+.header .nav_bar .navbar-brand {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -3px;
+  transform: scale(1.2);
+  transition: all 0.5s;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 3px #000004;
+}
+.header .nav_bar .coll_apse .nav_main .nav-item {
+  margin: 0 5px;
+}
+.header .nav_bar .coll_apse .nav_main .nav-item .nav-link {
+  color: #5E5C7F;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 5px 16px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
+}
+.header .nav_bar .coll_apse .nav_main .nav-item .nav-link:hover {
+  border-bottom: 2px solid #bdbcbcd1;
+  box-shadow: 0px 4px 7px 1px #5e5c7fb5;
+  background-color: #5E5C7F;
+  color: #fff;
+}
+.header .nav_bar .coll_apse .nav_main .nav-item .nav-link.active {
+  background-color: #5E5C7F;
+  color: #fff;
+  background-color: #5E5C7F;
+  border-radius: 5px;
+  padding: 5px 16px;
+  transform: scaleX(1);
+}
+.header .progress-container {
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 2px;
+}
+.header .progress-container .progress-bar {
+  height: 2px;
+  background-image: linear-gradient(to right, #103040 0%, #000C40 51%, #c1ec6bf5 100%);
+  width: 0%;
+}
+
+.home {
+  padding: 50px 0;
+}
+.home .imgMain2,
+.home .imgMain {
+  position: relative;
+  margin: 15px 0;
+  transition: all 0.5s;
+}
+.home .imgMain2:hover,
+.home .imgMain:hover {
+  transform: translateY(-7px) scale(1);
+  box-shadow: 0px 12px 9px 6px rgba(12, 0, 46, 0.2);
+}
+.home .imgMain2 .imgs2::after,
+.home .imgMain2 .imgs::after,
+.home .imgMain .imgs2::after,
+.home .imgMain .imgs::after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.home .imgMain2 .imgs2::before,
+.home .imgMain2 .imgs::before,
+.home .imgMain .imgs2::before,
+.home .imgMain .imgs::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  background-color: rgba(74, 54, 54, 0.35);
+}
+.home .imgMain2 .imgs2:hover::after,
+.home .imgMain2 .imgs:hover::after,
+.home .imgMain .imgs2:hover::after,
+.home .imgMain .imgs:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.home .imgMain2 .imgs2:hover::before,
+.home .imgMain2 .imgs:hover::before,
+.home .imgMain .imgs2:hover::before,
+.home .imgMain .imgs:hover::before {
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 54, 54, 0.35);
+}
+.home .pragraph {
+  margin: 20px 0;
+}
+.home .vedio_item {
+  margin: 15px 0;
+}
+.home .vedio_item .vedio_img {
+  transition: all 0.5s;
+}
+.home .vedio_item .vedio_img::after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.home .vedio_item .vedio_img::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 14, 14, 0.418);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.home .vedio_item .vedio_img:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.home .vedio_item .vedio_img:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mgntop {
+  margin-top: 65px;
+}
+
+.imagelightbox-arrow-left:before {
+  content: "" !important;
+  border: 0px !important;
+  font-family: "FontAwesome";
+  width: auto;
+  height: auto;
+  outline: none !important;
+}
+
+.imagelightbox-arrow-right:before {
+  content: "" !important;
+  border: 0px !important;
+  font-family: "FontAwesome";
+  width: auto;
+  height: auto;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.imagelightbox-close {
+  top: 10px;
+  right: 10px;
+}
+
+.imagelightbox-arrow {
+  top: 60%;
+}
+
+.mfp-iframe-holder .mfp-close {
+  right: -210px;
+  top: -20px;
+}
+
+.about {
+  padding-top: 50px;
+}
+.about .pragraph {
+  margin: 20px 0;
+}
+.about .about_img {
+  margin: 15px 0;
+}
+.about .about_img2 {
+  margin: 15px 0;
+  overflow: hidden;
+}
+.about .about_img2 .imgAbout2 {
+  transition: all 0.5s;
+}
+.about .about_img2 .imgAbout2::after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.about .about_img2 .imgAbout2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 14, 14, 0.418);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.about .about_img2 .imgAbout2:hover {
+  transform: scale(1.1);
+}
+.about .about_img2 .imgAbout2:hover::after {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+}
+.about .about_img2 .imgAbout2:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.about .about_img {
+  margin: 15px 0;
+  width: 255px;
+  height: 255px;
+}
+.about .about_img a {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.about .about_img a img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.5s;
+  transform: translateY(-50%);
+}
+.about .about_img a img + img {
+  top: 100%;
+  transform: translateY(0);
+  height: 100%;
+  width: 100%;
+}
+.about .about_img a:hover img {
+  top: -100%;
+  transform: translateY(0);
+}
+.about .about_img a:hover img + img {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.about .about_img a.Get_apac {
+  margin-right: 8px;
+}
+.about .about_img a.btn_custom {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition: all 0.5s linear;
+  text-decoration: none;
+}
+.about .about_vedio {
+  margin: 15px 0;
+}
+.about .about_vedio .aboutvedio {
+  overflow: hidden;
+}
+.about .about_vedio .aboutvedio .vedio_img img {
+  transition: all 0.5s;
+}
+.about .about_vedio .aboutvedio:hover .vedio_img img {
+  transform: scale(1.1);
+}
+
+.work {
+  padding: 50px 0;
+}
+.work .work_img {
+  margin: 15px 0;
+}
+.work .work_img .WorkLink {
+  transition: all 0.5s;
+}
+.work .work_img .WorkLink::after {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  font-size: 50px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+.work .work_img .WorkLink::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 14, 14, 0.418);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.work .work_img .WorkLink:hover {
+  box-shadow: 0px 12px 9px 6px rgba(12, 0, 46, 0.2);
+  transform: translateY(-7px) scale(1);
+  background-color: rgba(74, 54, 54, 0.35);
+}
+.work .work_img .WorkLink:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+.work .work_img .WorkLink:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal_wrapper .modal {
+  z-index: 1081;
+}
+.modal_wrapper .modal.show .modal-dialog {
+  transform: translate(0) scale(1);
+}
+.modal_wrapper .modal .close {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-weight: 400;
+  font-size: 50px;
+}
+.modal_wrapper .modal .modal-dialog {
+  max-width: 650px;
+  width: 100%;
+  transform: translate(0) scale(0);
+}
+.modal_wrapper .modal .modal-dialog .modal-content {
+  border-radius: 0;
+  border: 0;
+}
+.modal_wrapper .modal .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+.modal_wrapper .modal .modal-dialog .modal-content .modal-body .img_popup img {
+  width: 100%;
+  height: 300px;
+}
+
+.mfp-wrap {
+  top: 50px;
+}
+
+.modal_wrapper .modal .modal-dialog .modal-content {
+  top: 80px;
+}
+
+.imgInner {
+  padding: 50px 0;
+}
+.imgInner .main_img {
+  background: url("./../imgs/sssss1.jpg") no-repeat scroll top left/cover;
+  width: 100%;
+  height: 200px;
+  border: 1px solid red;
+}
+.imgInner .main_img:hover {
+  background-image: url("../vedio/sssgif.gif");
+}
+.imgInner .main_img .vedio_pra {
+  margin: 5px 10px;
+}
+
+.see_vedio {
+  padding: 50px 0;
+  background-image: url(./../imgs/master_img/cbn.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.see_vedio .vedios .seebutton {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-radius: 5px;
+  padding: 10px 16px;
+  border: 0;
+  outline: none;
+  transition: all 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  background-image: linear-gradient(to right, #F0F2F0 0%, #000C40 51%, #F0F2F0 100%);
+}
+.see_vedio .vedios .seebutton:hover {
+  color: #fff;
+  background-position: right center;
+}
+.see_vedio .vedios .modal.show .modal-dialog {
+  transform: translate(0) scale(1);
+}
+.see_vedio .vedios .modal .modal-dialog {
+  transform: translate(0) scale(0);
+}
+
+.footer {
+  background-color: #374560;
+  padding: 15px 0;
+}
+.footer .Footer_inner {
+  text-align: center;
+}
+.footer .Footer_inner p {
+  color: #9d9cb9;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}

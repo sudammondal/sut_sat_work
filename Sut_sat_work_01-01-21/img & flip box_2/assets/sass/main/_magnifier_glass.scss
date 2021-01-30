@@ -1,0 +1,28 @@
+.magnifier_glass {
+    background-color: #ddd;
+    padding: 50px 0;
+    .img-magnifier-container {
+        position: relative;
+        .img-magnifier-glassS {
+            position: absolute;
+            border: 3px solid #000;
+            border-radius: 50%;
+            cursor: none;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .img-magnifier-container {
+        .img-fluid {
+            height: 100%;
+        }
+    }
+    .add_bloger {
+        background-color: #F1F1F1;
+        border: 1px solid #d4d4d4;
+        width: 175px;
+        height: 100%;
+        padding: 10px;
+        color: #d4d4d4;
+    }
+}

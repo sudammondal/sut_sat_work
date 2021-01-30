@@ -1,0 +1,403 @@
+@media (min-width: 767px) and (max-width: 1200px) { 
+    .footer {
+        .border_top {
+            .footer_coprit {
+                .up_iconFixd {
+                    right: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    .about_banner::before {
+        content: "";
+        background: transparent;
+    }
+    .member_slied {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .sliditme {
+                        padding: 0 100px;
+                    }
+                }
+            }
+        }
+    }
+    .website_worp {
+        .website {
+            .website_head {
+                font-size: 30px;
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    .services_worp {
+        .services {
+            padding: 45px 30px;
+        }
+    }
+    .website_worp {
+        .website {
+            .website_head {
+                text-align: center;
+            }
+        }
+    }
+    
+
+}
+
+// media for ipad pro 
+@media (max-width: 991px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                
+                .lastC {
+                    margin-left: auto;
+                    .srcbr {
+                        border: transparent;
+                    }
+                    &.mbShow {
+                        display: block;
+                    }
+                    &.mbHide {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .mainContiner {
+                .navbar {
+                    .lastC {
+                        .srcbr {
+                            border: transparent;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    .footerTop {
+        .footPra {
+            .disflx {
+                text-align: center;
+                float: none;
+            }
+        }
+    }
+}
+
+//  media for ipad
+@media (max-width: 823px) {
+    &.fixedMenu {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    top: 2px;
+                }
+                .collapse_add {
+                    .ullist {
+                        overflow: scroll;
+                        width: 100%;
+                        height: 200px;
+                    }  
+                }
+            }
+        }
+    }
+    
+  
+}
+    
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 736px) {
+    .member_slied {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .sliditme {
+                        padding: 0 0px;
+                        display: block;
+                        text-align: center;
+                        .slidimg {
+                            max-width: 130px;
+                            border-radius: 50%;
+                            margin: 0 auto 15px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .member_slied {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .slick-prev {
+                    left: 60px;
+                    top: 300px;
+                }
+            }
+        }
+    }
+    .member_slied {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .slick-next {
+                    right: 60px;
+                    top: 300px;
+                } 
+            }
+        }
+    }
+    
+    .footerTop {
+        .footPra {
+            margin: 15px 0;
+        }
+    }
+    .tab_cllsps {
+        .tab_content {
+            .tab_items {
+                .ctm_row {
+                    .imgwidth {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media (max-width: 731px) { 
+    .imgwidth {
+        margin-bottom: 30px;
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 667px) {
+    .brand_worp {
+        .brand_iten {
+            text-align: center;
+        }
+    }
+    .footerTop {
+        .footPra {margin: 15px 0;
+            .disflx{
+                display: block;
+            }
+        }
+    }
+    .wow_worp {
+        .ovErlay {
+            margin-bottom: 45px;
+        }
+    }
+   
+
+}
+@media (max-width: 568px) {
+    .website_worp .website .website_head {
+        text-align: center;
+    }
+}
+// media for mobile large
+
+@media (max-width: 420px) {
+    .brand_iten {
+        text-align: center;
+    }
+   
+    .member_slied{
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .slick-prev {
+                    left: 60px;
+                    top: 300px;
+                }
+                .slick-next {
+                    right: 60px;
+                    top: 300px;
+                }
+                .test_slid_items {
+                    .sliditme { 
+                        padding: 0 0px;
+                        display: block;
+                        text-align: center;
+                        .slidimg {
+                            max-width: 130px;
+                            border-radius: 50%;
+                            margin: 0 auto 15px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about_banner {
+        .dawn_iconFixd {
+            bottom: -170px;
+        }
+    }
+    .imGSL {
+        margin: 0 auto;
+    }
+    .tab_cllsps {
+        .tab_content {
+            .tab_items {
+                .ctm_row {
+                    .imgwidth {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+// media for mobile small
+@media (max-width: 375px) {
+    .about_banner {
+        height: auto;
+        .about {
+            margin: 120px auto;
+            .about_header {
+                font-size: 44px;
+                width: 67%;
+            }
+        }
+    }
+    .about_banner {
+        .dawn_iconFixd {
+            bottom: 0px;
+        }
+    }
+    .website_worp {
+        .website {
+            .website_head {
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 60px;
+            }
+        }
+    }
+    .about_banner {
+        .about {
+            .about_header {
+                font-size: 34px;
+                width: 80%;
+            }
+        }
+    }
+   
+    .website_worp {
+        .website {
+            .website_head {
+                font-size: 26px;
+            }
+            .framework {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+    .services_worp {
+        .services {
+            .service_hedr {
+                font-size: 24px;
+            }
+            .countin_main {
+                margin: 50px 10px 0 0;
+            }
+        }
+        .ext_padding {
+            padding: 45px 30px;
+        }
+    }
+    
+    .tab_cllsps {
+        .tab_content {
+            .tab_items {
+                .ctm_row {
+                    .imgwidth {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .imGSL {
+        margin: 0 auto;
+    }
+    
+
+    //slise responsive //
+  
+    .member_slied {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .sliditme {
+                        display: block;
+                        padding: 0 0px;
+                        text-align: center;
+                        .slidimg {
+                            max-width: 130px;
+                            border-radius: 50%;
+                            margin: 0 auto 15px auto;
+                        }
+                    }
+                }
+                .slick-prev {
+                    left: 60px;
+                    top: 300px;
+                }
+                .slick-next {
+                    right: 60px;
+                    top: 300px;
+                }
+            
+            }
+        }
+    }
+    .brand_worp{
+        .brand_iten {
+            text-align: center;
+        }
+    }
+    .footerTop {
+        .footPra {
+            margin: 15px 0;
+        }
+    }
+    
+}
+
+@media (max-width: 320px) {
+    
+}

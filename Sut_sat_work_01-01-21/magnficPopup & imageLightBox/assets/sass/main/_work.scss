@@ -1,0 +1,50 @@
+.work {
+    padding: 50px 0;
+    .work_img {
+        margin: 15px 0;
+        .WorkLink {
+            transition: all 0.5s;
+            &::after {
+                content: '\f00e';
+                font-family: 'FontAwesome';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(0);
+                color: #fff;
+                font-size: 50px;
+                opacity: 1;
+                visibility: visible;
+                transition: all 0.5s;
+                font-size: 20px;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                height: 100%;
+                background-color: rgba(20, 14, 14, 0.418);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.5s;
+            }
+            &:hover {
+                box-shadow: 0px 12px 9px 6px rgb(12 0 46 / 0.2);
+                &::after {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translate(-50%, -50%) scale(1);
+                }
+                &::before {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                transform: translateY(-7px) scale(1);
+                background-color: rgb(74 54 54 / 35%);
+            }
+        }
+    }
+}

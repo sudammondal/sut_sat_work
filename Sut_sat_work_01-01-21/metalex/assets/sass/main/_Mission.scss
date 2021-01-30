@@ -1,0 +1,47 @@
+.Mission {
+    padding: 50px 0;
+    .mainMission {
+        .MissionTitle {
+            position: relative;
+            &::before {
+                width: 2px;
+                height: 100%;
+                top: 3px;
+                right: 55px;
+                background: #eb1b2b;
+                content: "";
+                position: absolute;
+            }
+            &::after {
+                width: 2px;
+                height: 100%;
+                top: 3px;
+                right: 50px;
+                background: #eb1b2b;
+                content: "";
+                position: absolute;
+
+            }
+            .Missionsub {
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0;
+
+            }
+            .Missionhead {
+                margin-bottom: 0px;
+                font-weight: 600;
+                line-height: 1.2;
+                font-size: 40px;
+            }
+        }
+        .massionPra {
+            max-width: 495px;
+            width: 100%;
+            font-size: 14px;
+            margin-bottom: 0;
+            padding-top: 12px;
+            margin-left: -35px;
+        }
+    }
+}

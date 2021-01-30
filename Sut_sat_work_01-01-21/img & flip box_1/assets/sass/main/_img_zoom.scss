@@ -1,0 +1,26 @@
+.img_zoom {
+    padding: 50px 0;
+    .imgZoom {
+        width: 100%;
+        height: 100%;
+        .img-zoom-container {
+            position: relative;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .img-zoom-lens {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            /*set the size of the lens:*/
+            width: 80px;
+            height: 80px;
+        }
+        .img-zoom-result {
+            border: 1px solid #d4d4d4;
+            width: 100%;
+            height: 407px;
+        }
+    }
+}

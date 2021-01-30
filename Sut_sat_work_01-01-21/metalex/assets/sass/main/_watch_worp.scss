@@ -1,0 +1,104 @@
+.watch_worp {
+    background-image   : url(../imgs/video_image.jpg);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    background-position: center;
+    position: relative;
+    padding: 185px 0;
+    &::before {
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000ed;
+        position: absolute;
+        opacity: 0.9;
+    }
+    .watchmain {
+        
+        .watch {
+            .watch_hed {
+                font-size: 22px;
+                font-weight: 600;
+                text-transform: capitalize;
+                margin-bottom: 12px;
+                color: #fff;
+            }
+            .watchHed {
+                font-size: 36px;
+                margin-top: 10px;
+                font-weight: 600;
+                color: #fff;
+            }
+               
+            .watch_pra {
+                max-width: 619px;
+                width: 100%;
+                font-size: 16px;
+                margin-bottom: 30px;
+                font-weight: 400;
+                color: #fff;
+
+            }
+            .bnarbtn {
+                box-shadow: none;
+                border: 1px solid #eb1b2b;
+                color: #fff;
+                background: #eb1b2b;
+                padding: 8px 30px;
+                font-weight: 700;
+                text-transform: uppercase;
+                box-shadow: none;
+                transition: all 0.5s;
+                border-radius: 50px;
+                text-decoration: none;
+                line-height: 1.6;
+                font-size: 14px;
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                &:hover {
+                    background: #fff;
+                    border-color: #fff;
+                    color: #eb1b2b;
+                }
+            }
+        }
+       
+    } 
+    .video_main {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        width: 100%;
+        align-items: center;
+        text-align: right;
+        justify-content: center;
+        transition: all 0.5s;
+        .viveoLink {
+            font-size: 30px;
+            margin-top: 9px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            margin-right: 15px; 
+            transition: all 0.5s;
+            text-transform: uppercase;
+            i {
+                margin-right: 10px;
+                transition: all 0.5s;
+            }
+            &:hover {  
+                color: #eb1b2b;
+                i {color: #eb1b2b;
+                    transform: scale(1.2); 
+                }
+            }
+        }
+    }
+    
+}
+.mfp-iframe-holder .mfp-content {
+    top: 30px;
+}

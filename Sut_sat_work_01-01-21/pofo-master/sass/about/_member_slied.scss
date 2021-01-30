@@ -1,0 +1,83 @@
+.member_slied {
+    padding: 130px 0;
+    background-image: url(../imgs/testimonial-parallax-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        position: absolute;
+        background: #00000080;
+
+    }
+    .testmonials_slied {
+        .main_slieda_ttstmonials {
+            width: 100%;
+            margin: 0 auto;
+            .test_slid_items {
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                .sliditme {
+                    display: flex;
+                    align-items: center;
+                    text-align: left;
+                    padding: 0 240px;
+                    .slidimg {
+                        width: 130px;
+                        margin-right: 50px;
+                        border-radius: 50%;
+
+                    }
+                    .title_hed{
+                        .slid_pra {
+                            color: #b7b7b7;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 24px;
+
+                        }
+                        .sld_dedloper {
+                            font-size: 12px;
+                            line-height: 20px;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            display: inline-block;
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                    }
+                    
+                }
+            }
+            .slick-prev:before {
+                font-family: 'slick';
+                font-size: 30px;
+            }
+            .slick-next:before {
+                font-family: 'slick';
+                font-size: 30px;
+            }
+            .slick-prev {
+                left: 0;
+                top: 50px;
+                width: 32px;
+                z-index: 1;
+            }
+            .slick-next {
+                right: 0;
+                top: 50px;
+                width: 32px;
+                z-index: 1;
+            }
+            
+        }
+    }
+}

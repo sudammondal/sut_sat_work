@@ -1,0 +1,75 @@
+.header {
+    background-color: #f6f6f6;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 10;
+    &.fixedMenu {
+        background-color: #fff;
+        padding: 5px 0;
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        .nav_bar {
+            transition: all 0.5s;
+            .navbar-brand {
+                transform: scale(1);
+            }
+        }
+    }
+    .nav_bar {
+        .navbar-brand {
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -3px;
+            transform: scale(1.2);
+            transition: all 0.5s;
+            text-transform: uppercase;
+            text-shadow: 2px 3px 3px rgb(0 0 4);
+        }
+        .coll_apse {
+            .nav_main {
+                .nav-item {
+                    margin: 0 5px;
+                    .nav-link {
+                        color: #5E5C7F;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-transform: capitalize;
+                        border-radius: 5px;
+                        padding: 5px 16px;
+                        border-bottom: 2px solid transparent;
+                        transition: all 0.5s;
+                        &:hover {
+                            border-bottom: 2px solid #bdbcbcd1;
+                            box-shadow: 0px 4px 7px 1px #5e5c7fb5;
+                            background-color: #5E5C7F;
+                            color: #fff;
+                        }
+                        &.active {
+                            background-color: #5E5C7F;
+                            color: #fff;
+                            background-color: #5E5C7F;
+                            border-radius: 5px;
+                            padding: 5px 16px;
+                            transform: scaleX(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .progress-container {
+        width: 100%;
+        height: 0px;
+        position: absolute;
+        bottom: 2px;
+        .progress-bar {
+            height: 2px;
+            background-image: linear-gradient(to right, #103040 0%, #000C40 51%, #c1ec6bf5 100%);
+            width: 0%;
+        }
+    }
+}

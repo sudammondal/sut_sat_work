@@ -1,0 +1,38 @@
+.see_vedio {
+    padding: 50px 0;
+    background-image: url(./../imgs/master_img/cbn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .vedios {
+        .seebutton {
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: capitalize;
+            border-radius: 5px;
+            padding: 10px 16px;
+            border: 0;
+            outline: none;
+            transition: all 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            background-image: linear-gradient(to right, #F0F2F0 0%, #000C40 51%, #F0F2F0 100%);
+            &:hover {
+                color: #fff;
+                background-position: right center;
+            }
+        }
+        .modal {
+            &.show {
+                .modal-dialog {
+                    transform: translate(0) scale(1);
+                }
+            }
+            .modal-dialog {
+                transform: translate(0) scale(0);
+            }
+        }
+    }
+}

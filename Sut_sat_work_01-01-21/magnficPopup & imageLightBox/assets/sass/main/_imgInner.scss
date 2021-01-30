@@ -1,0 +1,15 @@
+.imgInner {
+    padding: 50px 0;
+    .main_img {
+        background: url('./../imgs/sssss1.jpg') no-repeat scroll top left / cover;
+        width: 100%;
+        height: 200px;
+        border: 1px solid red;
+        &:hover {
+            background-image: url('../vedio/sssgif.gif');
+        }
+        .vedio_pra {
+            margin: 5px 10px;
+        }
+    }
+}

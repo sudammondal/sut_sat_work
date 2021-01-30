@@ -1,0 +1,101 @@
+.amazing_projects {
+    padding: 125px 0;
+    .amazingHeader {
+        text-align: center;
+        .projects_head {
+            margin: 0 auto 70px auto;
+            .amazing_pra {
+                font-size: 12px;
+                line-height: 20px;
+                color: #939393;
+                margin-bottom: 5px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 500;
+                text-transform: uppercase;
+                text-align: center;
+            }
+            .amazing_head {
+                max-width: 22%;
+                color: #232323;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+                font-family: 'Montserrat', sans-serif;
+                margin: 0 auto; 
+            }
+        }
+    }
+    .ctmCOL {
+        padding: 0;
+    }
+    .hover_link { 
+        text-decoration: none;
+        .custom_col {
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+            .img-fluid {
+                width: 100%;
+            }
+            .hover_con {
+                padding: 0;
+                position: absolute;
+                top: 25px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                opacity: 0;
+                transition: all 0.5s;
+                visibility: hidden;
+                .hover_inner {
+                    width: 100%;
+                    .textcentr {
+                        color: #fff;
+                        margin: 90px 0;
+                        text-align: center;
+                        .textItem {
+                            padding: 46px;
+                            .hover_hed {
+                                color: #fff;
+                                font-size: 14px;
+                                text-transform: uppercase;
+                                margin-bottom: 5px;
+                                font-weight: 600;
+                            }
+                            .hover_pra {
+                                font-size: 10px;
+                                text-transform: uppercase;
+                                color: #cac8c8;
+                                line-height: 1.5;
+                            }
+                        }
+                    }
+                }
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                // background-image: linear-gradient(-90deg,#44a1abfa, #005aff);
+                background-color: #1c1c1c;
+                opacity: 0;
+                transition: all 0.5s;
+                top: 0;
+                left: 0;
+            }
+            &:hover{
+                &::before {
+                    opacity: 0.7;
+                }
+                .hover_con {
+                    opacity: 1;
+                    top: 0;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}

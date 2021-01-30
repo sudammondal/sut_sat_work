@@ -1,0 +1,209 @@
+.flit_box {
+  padding: 50px 0;
+}
+.flit_box .flitMain h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.flit_box .flitMain h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.flit_box .flitMain .flip-box {
+  background-color: transparent;
+  width: 350px;
+  height: 263px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+.flit_box .flitMain .flip-box .flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flit_box .flitMain .flip-box .flip-box-inner .flip-box-front,
+.flit_box .flitMain .flip-box .flip-box-inner .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flit_box .flitMain .flip-box .flip-box-inner .flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+.flit_box .flitMain .flip-box .flip-box-inner .flip-box-back {
+  background-image: url(../imgs/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  transform: rotateY(180deg);
+  width: 350px;
+  height: 263px;
+}
+.flit_box .flitMain .flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flit_box .flitMain .move_img img:hover {
+  transform: scaleX(-1);
+}
+.flit_box .flitMain .move_img .capacapa:hover {
+  transform: scaleX(-1);
+}
+.flit_box .flitMain .move_img .capacapa:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.mylogo_worp {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+.mylogo_worp .mylogo .main {
+  max-width: 1000px;
+  margin: auto;
+}
+.mylogo_worp .mylogo .main .content {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.mylogo_worp .mylogo .main .content img {
+  width: 100%;
+  height: 150px;
+}
+.mylogo_worp .mylogo h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.mylogo_worp .mylogo h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.magnifier_glass {
+  background-color: #ddd;
+  padding: 50px 0;
+}
+.magnifier_glass .img-magnifier-container {
+  position: relative;
+}
+.magnifier_glass .img-magnifier-container .img-magnifier-glassS {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+}
+.magnifier_glass .img-magnifier-container .img-fluid {
+  height: 100%;
+}
+.magnifier_glass .add_bloger {
+  background-color: #F1F1F1;
+  border: 1px solid #d4d4d4;
+  width: 175px;
+  height: 100%;
+  padding: 10px;
+  color: #d4d4d4;
+}
+
+.card_inner .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+.card_inner .card .containeritm {
+  padding: 0 16px;
+}
+.card_inner .card .containeritm .title {
+  color: grey;
+}
+.card_inner .card .containeritm .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #b5b5b5fc;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.card_inner .card .containeritm .button:hover {
+  background-color: #555;
+}
+.card_inner .card:hover {
+  box-shadow: 0 4px 14px 9px rgba(0, 0, 0, 0.2);
+}
+
+.Image_Comparison {
+  padding: 100px 0;
+}
+.Image_Comparison .Comparison .img-comp-container {
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+  /*should be the same height as the images*/
+}
+.Image_Comparison .Comparison .img-comp-container .img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+.Image_Comparison .Comparison .img-comp-container .img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+.Image_Comparison .Comparison .img-comp-container .img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}

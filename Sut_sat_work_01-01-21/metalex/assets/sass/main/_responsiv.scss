@@ -1,0 +1,1031 @@
+@media (max-width: 1024px) {
+ 
+    .banner_slide{
+        .banner_worp {
+            .banner {
+                .main_banner {
+                    .banerHed2 {
+                        font-size: 30px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    .Mission {
+        .mainMission {
+            .MissionTitle{
+                .Missionhead {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .Newsletter {
+        margin-bottom: 30px;
+    }
+    .countdown {
+        .count_main {
+            font-size: 32px;
+            padding: 34px 60px;
+        }
+    }
+    .latest_news {
+        .ctm_outline {
+            .latest_manu {
+                .latest_item {
+                    .latest_img img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .Contact_worp {
+        .contact_item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+    .Contact_worp {
+        .contact_bottom {
+            margin-bottom: 50px;
+        }
+    }
+    .election_worp {
+        .countdown {
+            .count_main {
+                .colon {
+                    right: -20px;
+                }
+            }
+        }
+    }
+  
+    header{
+        &.header {
+            .navbar {
+                .maincollaps{
+                    .main_manu {  
+                        height: 200px;
+                        overflow: scroll;
+                        margin: 10px 0;
+                        li {
+                            a {
+                                margin: 10px 10px;
+                           }
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+  
+   
+  
+}
+@media (max-width: 991px) {
+    header
+    .fixedMenu {
+        .navbar {
+            .maincollaps {
+                .main_manu {
+                    li {
+                        
+                            margin: 10px;
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+    .banner_slide {
+        .brand_worp{
+            .brand_item {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .header_top {
+        .top_head {
+            .contac{
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    
+
+    .countain_worp {
+        .main_counting {
+            margin-bottom: 30px;
+        }
+    }
+    .Mission {
+        .mainMission {
+            .MissionTitle{
+                &::before {
+                    display: none;    
+                }
+                &::after {
+                    display: none;    
+                }
+
+            }
+            .massionPra {
+                max-width: 100%;
+                margin: 0;
+            }
+        }
+    }
+ 
+    .VOLUNTEER {
+        .ovErlay {
+            margin-bottom: 30px;
+        }
+    }
+    .MEMBER_revew {
+        .MissionTitle {
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .massionPra {
+            max-width: 100%;
+            margin: 0;
+        }
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .slid_pra2 {
+                        max-width: 100%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+   
+    .election_worp {
+        .countdown {
+            .count_main {
+                font-size: 32px;
+                margin-bottom: 20px;
+                padding: 34px 35px;
+                .colon {
+                    right: -15px;
+                }
+            }
+            
+        }
+    }
+    .up_iconFixd {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_top {
+        .top_head {
+            .contac {
+                a {
+                    font-size: 13px;
+                } 
+            }
+        }
+    }
+    .navbar_collapse {
+        .main_manu {
+            overflow-y: scroll;
+            height: 200px;
+            margin: 20px;
+        }
+    }
+    header,
+    &.fixedMenu {
+        .navbar {
+            .maincollaps {
+                .main_manu {
+                    li {
+                        a {
+                            color: #fff;
+                            padding: 0px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    header {
+        .navbar {
+            .maincollaps {
+                .main_manu {
+                    li {
+                        .nav-link {
+                            margin: 10px 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner_slide {
+        .banner_worp {
+            .banner {
+                .main_banner {
+                    .banerHed {
+                        font-size: 46px;
+                    }
+                }
+                .banerHed2 {
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+     
+    .Mission {
+        .mainMission {
+            .massionPra {
+                margin-left: 0px;
+                
+            }
+            .MissionTitle{
+                &::after {
+                    right: 5px; 
+                }
+                &::before {
+                    right: 1px; 
+                }
+            }
+           
+        }
+    }
+   
+    .about_us {
+        .about_main {
+            .sigensar {
+                margin-bottom: 30px;
+            }
+        }
+        .about_imgs {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .countain_worp { padding-bottom: -30px;
+        .main_counting {
+            margin-bottom: 30px;
+        }
+    }
+    
+    .watch_worp {
+        .video_main {
+            text-align: center;
+            margin-top: 50px;
+            .viveoLink {
+                font-size: 20px;
+            } 
+        }
+    }
+
+    .VOLUNTEER {
+        .ovErlay {
+            margin-bottom: 30px;
+        }
+       
+    }
+    .brand_worp  {
+        margin-bottom: -30px;
+        .brand_item {
+            margin-bottom: 30px;
+        }
+    }
+   
+    .election_worp {
+        .countdown {
+            .count_main {
+                padding: 34px 35px; 
+                margin-bottom: 20px;
+              font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 736px) {
+    .header_top {
+        .top_head { 
+            .contac {
+                a {
+                    font-size: 9px;
+                }
+            }
+            .icon_manu{
+                .icon_list {
+                    .icons {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .banner_slide {
+        .banner_worp {
+            .banner {
+                .main_banner {
+
+                    .banerHed {
+                        font-size: 40px;
+                    }
+                    .banerHed2 {
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                    .banner_pra {
+                        font-weight: 300;
+                    }
+                    .banner_button {
+                        font-size: 12px;
+                    }
+                    .bnarbtn {
+                        font-size: 12px;
+                    }
+                }
+               
+            }
+        }
+    }
+
+    .about_us {
+        .about_main {
+            .about_sub {
+                font-size: 16px; 
+            }
+            .about_head {
+                font-size: 30px;
+                font-weight: 600;
+            }
+            .aboutPrea {
+                font-size: 13px;
+            }
+            .sigensar {
+                img {
+                    width: 100px;
+                } 
+            }
+                
+        }   
+    }
+   
+    .countain_worp {
+        .main_counting {
+            .pra_count {
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .counting {
+                font-size: 35px;
+                font-weight: 600;
+            }
+        }
+    }
+    .Mission {
+        .mainMission {
+            .MissionTitle {
+                &::after {
+                    display: none;
+                }
+                &::before {
+                    display: none;
+                }
+                .Missionsub {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .Missionhead {
+                    font-size: 25px;
+                }
+            }
+            .massionPra {
+                max-width: 100%;
+            }
+        }
+    }
+    .watch_worp {
+        .watchmain {
+            .watch{
+                .watch_hed {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                .watchHed {
+                    font-size: 30px;
+                }
+                .watch_pra {
+                    max-width: 619px;
+                    font-size: 16px;
+                }
+                .bnarbtn {
+                    font-weight: 400;
+                    font-size: 12;
+                }
+            }
+        }
+    }
+    .Media_worp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+    .manu_Iteme {
+        .isotop_manu {
+            .isotopmein {
+                .list_item {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    
+    .VOLUNTEER {
+        .ovErlay {
+            .overlay_header {
+                .overadhed {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .VOLUNTEER {
+        .ovErlay {
+            .overlay_header {
+                .overarpra {
+                    font-size: 12px; 
+                }
+            }
+        }
+    }
+    .election_worp {
+        .counter_bnt {
+            a {
+                border-radius: 50px;
+                font-size: 14px;
+                border-bottom: 50px;
+            }
+        }
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+                font-weight: 600; 
+            }
+            .electio_prag {
+                max-width: 100%;
+            } 
+        }
+    
+        .countdown {
+            .count_main {
+                .colon {
+                    right: -14px;
+                }
+            }
+        }
+    }
+    .Goalsworp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+                font-weight: 600; 
+            }
+        }
+    }
+    
+    .MEMBER_revew {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .slid_pra2 {
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .MEMBER_revew {
+        .MissionTitle{
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .massionPra {
+            max-width: 100%;
+            margin: 0 ;
+        } 
+    }
+    .latest_news{
+        .ctm_outline {
+            .latelt_header {
+                .latest_hed {
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .ctm_outline{
+            .latest_manu {
+                .latest_item {
+                    .latest_img{
+                        .latest_pra {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Contact_worp {
+        .contact_header {
+            .contact_hed {
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+        .counter_bnt {
+            a {
+                padding: 11px 45px;
+        
+            }
+        }
+    }
+    .footer_worp {
+        .Newsletter {
+            .Instagram{
+                .castomRow{
+                    .castomCol{
+                        .itme_img {
+                            .imgangor {
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .futtrbottom {
+            text-align: center;
+        }
+        .footer_bottom {
+            text-align: center;
+        }
+    }
+    .countdown { 
+        .colon {
+            display: block; 
+            top: 40%;
+        }
+        .count_main {
+            font-size: 22px;
+            padding: 34px 22px; 
+            .count_text {
+                font-size: 45px;
+            }
+        }
+    }
+    
+    .brand_worp {
+        .brand_item {
+            img {
+                padding: 0;
+            }
+        }
+    }
+    .election_worp {
+        .countdown {
+            .count_main {
+                padding: 34px 15px;
+            }
+        }
+    }
+
+
+}
+
+
+@media (max-width: 568px) {
+    .countdown {
+        .count_main {
+            font-size: 22px;
+            padding: 34px 60px;
+        }
+        .colon {
+            display: none;
+        }
+    }
+    .election_worp {
+        .countdown {
+            .count_main {
+                padding: 34px 50px;
+                margin-bottom: 30px;
+            }
+        }   
+    }
+}
+@media (max-width: 420px) {
+    .header_top {
+        display: none;
+    }
+    .banner_slide {
+        .banner_worp {
+            .banner {
+                .main_banner {
+                    .banerHed {
+                        font-size: 30px;
+                    }
+                    .banerHed2 {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                    .banner_pra {
+                        font-weight: 300;
+                    }
+                    .banner_button {
+                        font-size: 12px;
+                    }
+                    .bnarbtn {
+                        font-size: 12px;
+                    }
+                }
+               
+            }
+        }
+    }
+
+    .about_us {
+        .about_main {
+            .about_head {
+                font-size: 30px;
+            }
+        }
+    }
+    .countain_worp{
+        .main_counting {
+            .counting {
+                font-size: 35px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .Mission {
+        .mainMission {
+            .MissionTitle{
+                .Missionhead {
+                    font-size: 22px;
+                }
+                &::before {
+                    display: none;
+                }
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+ 
+    .MEMBER_revew {
+        .massionPra {
+            max-width: 100%;
+            margin: 0;
+        }
+        .MissionTitle{
+            &::after {
+                display: none;
+            }
+            &::before {
+                display: none;
+            }
+        }
+    }
+  
+    .watch_worp {
+        .watchmain {
+            .watch {
+                .watch_hed {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                .watchHed {
+                    font-size: 30px; 
+                }
+            }
+        }
+    }
+    .manu_Iteme {
+        .isotop_manu {
+            .isotopmein {
+                .list_item {
+                    margin: 10px 5px 0;
+                }
+            }
+        }
+    }
+    .Media_worp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+            }
+        }
+    }
+    .Mission {
+        .mainMission {
+            .MissionTitle {
+                .Missionhead {
+                    font-size: 20px;
+                }
+                .Missionsub {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .election_worp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+    .Goalsworp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+            }
+        }
+    }
+    .INSTAGRAM_worp {
+        .media_header {
+            .media_hed {
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+    .MEMBER_revew {
+        .MissionTitle {
+            .Missionhead {
+                font-size: 30px;
+            }
+            .Missionsub {
+                font-weight: 400;
+            }
+        }
+    }
+    .vote_video {
+        .video_vote {
+            .video_hed {
+                font-size: 30px; 
+            }
+        }
+    }
+    .latest_news {
+        .ctm_outline{
+            .latelt_header{
+                .latest_hed {
+                    font-size: 30px;
+                    font-weight: 600
+                }
+            }
+        }
+    }
+    .Contact_worp {
+        .contact_header {
+            .contact_hed {
+                font-size: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+    
+   
+    .footer {
+        .futtrbottom {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .footer_bottom {
+            text-align: center;
+        }
+    }
+    .footer_worp {
+        .Newsletter {
+            .pranews {
+                max-width: 100%;
+            }
+        }
+    }
+    .countdown{
+        .count_main {
+            font-size: 30px;
+            padding: 30px 60px;
+            margin-bottom: 30px;
+        }
+        .colon {
+            display: none;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .banner_worp {
+        .banner {
+            .main_banner {
+                .banerHed {
+                    font-size: 29px;
+                }
+            }
+        }
+    }
+    .banner_slide {
+        .banner_worp {
+            .banner {
+                .main_banner {
+
+                    .banerHed {
+                        font-size: 40px;
+                    }
+                    .banerHed2 {
+                        font-size: 220px;
+                        font-weight: 400;
+                    }
+                    .banner_pra {
+                       display: none;
+                    }
+                    .banner_button {
+                        font-size: 12px;
+                        font-size: 10px;
+                        font-weight: 400;
+                        padding: 0px 15px;
+                    }
+                    .bnarbtn {
+                        font-size: 12px; 
+                        font-size: 10px;
+                        font-weight: 400;
+                        padding: 0px 15px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .countdown {
+        .count_main {
+            margin-bottom: 20px;
+        }
+        .colon {
+            display: none;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .banner_slide {
+        .banner_worp {
+            .banner {
+                .main_banner {
+                    .banerHed {
+                        font-size: 22px;
+                        margin-bottom: 30px;
+                    }
+                }
+               
+            }
+        }
+    }
+
+    .about_us {
+        .about_main {
+            .about_head {
+                font-size: 24px;
+            }
+        }
+    }
+    .watch_worp {
+        .watchmain {
+            .watch {
+                .watchHed {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .Media_worp{
+        .media_header {
+            .media_hed {
+                font-size: 25px;
+            }
+        }
+    }
+    .election_worp {
+        .media_header {
+            .media_hed {
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+    }
+    .Goalsworp {
+        .goalaeorp_main {
+            .nav_manu {
+                .mav_items {
+                    .nav_link {
+                        padding: 8px 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .MEMBER_revew {
+        .MissionTitle {
+            .Missionhead {
+                font-size: 25px;
+            }
+        }
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .test_item {
+                        .test_title {
+                            .slid_hed {
+                                font-size: 18px;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .vote_video {
+        .video_vote{
+            .video_hed {
+                font-size: 25px;
+            }
+        }
+    }
+    .latest_news {
+        .ctm_outline {
+            .latelt_header {
+                .latest_hed {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .Contact_worp {
+        .contact_header {
+            .contact_hed {
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+    .footer_worp {
+        .Newsletter {
+            .hednews {
+                font-size: 20px;
+            }
+        }
+    }
+    .countdown {
+        .count_main {
+            margin-bottom: 20px;
+        }
+        .colon {
+            display: none;
+        }
+    }
+
+}

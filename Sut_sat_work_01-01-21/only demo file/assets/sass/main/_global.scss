@@ -1,0 +1,81 @@
+/*=== fonts ====*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
+
+/*====================================================*/
+
+.p0 {
+    padding: 0px;
+}
+
+.list_style {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.row.m0 {
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 0;
+    font: 400 15px/26px "Poppins", sans-serif;
+    color: #838999;
+}
+
+a,
+.btn,
+button {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+a:hover,
+a:focus,
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 1250px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+}

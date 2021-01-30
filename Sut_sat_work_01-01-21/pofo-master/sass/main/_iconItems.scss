@@ -1,0 +1,32 @@
+.iconItems {
+    .addcastom {
+        margin: 130px 0;
+        .iconMAin {
+            display: inline-flex;
+            .iconimgss { 
+                font-size: 40px;
+                margin: 5px 15px 0 0;
+                width: 45px;
+            }
+        
+            .icon_text {
+                margin-left: 10px;
+                .texti {
+                    font-size: 12px;
+                    color: #6f6f6f;
+                }
+                .texti2{
+                    font-weight: 600;
+                    color: #232323;
+                }
+            }
+
+
+        }
+        .iconprag {
+            font-size: 14px;
+            color: #6f6f6f;
+        }
+    }
+   
+}

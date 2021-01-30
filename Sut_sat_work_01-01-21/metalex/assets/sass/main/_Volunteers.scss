@@ -1,0 +1,91 @@
+.Volunteers {
+    padding-bottom: 70px;
+    margin-top: 30px;
+    .VolunteersMain {
+        padding: 37px 27px 39px;
+        transition: all 0.5s;
+        background: #fff;
+        box-shadow: 0px 6px 14px 0px #00000024;
+        margin-bottom: 30px;
+        .VolunteersHead {
+            margin: 5px 0 10px;
+            font-size: 18px;
+            padding: 0;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.2;
+            color: #333;
+            
+        }
+        .VolunteersPra {
+            font-size: 14px;
+            margin: 10px 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .ReadMore {
+            .red_button {
+                position: relative;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: capitalize;
+                color: #333;
+                border-bottom: 1px solid transparent;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                &::before {
+                    position: absolute;
+                    content: "";
+                    bottom: 0;
+                    right: 0;
+                    width: 0%;
+                    height: 1px;
+                    background: #fff;
+                    opacity: 0;
+                    transition: all 0.5s;
+                }
+                &:hover,
+                &.active {
+                    color: #fff;
+                    &::before {
+                        width: 100%;
+                        right: auto;
+                        left: 0;
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+        .icon_flag {
+            font-size: 34px;
+            color: #000;
+            margin-bottom: 15px;
+        }
+        &:hover {
+            background: #eb1b2b;
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 40px 1px #0000005e;
+            
+            .VolunteersHead {
+                color: #fff;
+            }
+            .VolunteersPra {
+                color: #fff;
+            }
+            .ReadMore {
+                .red_button {
+                    color: #fff;
+                    
+                }
+            }
+            .icon_flag {
+                color: #fff;
+            }
+
+        }
+
+    }
+}

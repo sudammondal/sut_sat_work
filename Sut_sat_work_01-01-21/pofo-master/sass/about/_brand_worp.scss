@@ -1,0 +1,13 @@
+.brand_worp {
+    padding: 125px 0;
+    background-color: #ddd;
+    .brand_iten {
+        a {
+            text-decoration: none;
+            display: block;
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+}

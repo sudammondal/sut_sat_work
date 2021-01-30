@@ -1,0 +1,66 @@
+.brand_worp {
+    padding: 90px 0;
+    overflow: hidden;
+    .brand_item {
+        text-align: center; 
+        outline: none;
+        img {
+            padding: 10px 10px;
+            transition: all 0.5s;
+            outline: none;
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        
+    }
+    .slick-arrow {
+        z-index: 3;
+        width: 40px;
+        height: 40px;
+        transition: all 0.5s;
+        opacity: 0;
+        visibility: hidden;
+        &::before {
+            font-family: 'FontAwesome';
+            border: 1px solid #eb1b2b;
+            padding: 10px;
+            border-radius: 40px;
+            font-size: 20px;
+            transition: all 0.5s;
+            color: #eb1b2b;
+        }
+
+        &:hover {
+            &::before {
+                background-color: #eb1b2b;
+                color: #fff;
+            }
+        }
+
+        &.slick-prev {
+            left: -60px;
+        }
+
+        &.slick-next {
+            right: -60px;
+        }
+    }
+
+    &:hover {
+        .slick-arrow {
+            opacity: 1;
+            visibility: visible;
+            &.slick-prev {
+                left: -25px;
+            }
+
+            &.slick-next {
+                right: -25px;
+            }
+        }
+
+    }
+   
+}

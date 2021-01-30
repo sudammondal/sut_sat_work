@@ -1,0 +1,42 @@
+.heaer {
+  position: fixed;
+  background-color: #dddddd;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+.banner {
+  padding: 100px 0;
+  background-color: red;
+}
+
+.banner2 {
+  background-color: green;
+  padding: 100px 0;
+}
+
+.banner3 {
+  background-color: blue;
+  padding: 100px 0;
+}
+
+.banner4 {
+  background-color: yellow;
+  padding: 100px 0;
+}
+
+.banner5 {
+  background-color: olive;
+  padding: 100px 0;
+}

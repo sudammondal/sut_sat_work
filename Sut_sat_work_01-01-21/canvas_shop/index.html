@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body id="home">
+    <header class="header">
+        <div class="container-fluid container_ctm">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav_header">
+                        <nav class="nav_main navbar navbar-expand-lg">
+                            <a class="logo navbar-brand" href="#"><img src="./assets/imgs/logo/logo.png" class="logo_img img-fluid" alt="logo"></a>
+                            <a class="logo2 navbar-brand" href="#"><img src="./assets/imgs/logo/logo-dark.png" class="logo_img img-fluid" alt="logo"></a>
+                            <button class="nav_button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                            </button>
+
+                            <div class="main_collopse collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="main_manu navbar-nav m-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">women</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">help</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">contact</a>
+                                    </li>
+                                </ul>
+
+                                <button class="logIn">SIGN UP/LOGIN</button>
+                                <div class="sopingbag">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---start banner worp-->
+    <section class="banner_worp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner_main ">
+                        <div class="bannerInner">
+                            <svg>
+                                <symbol id="dnxt-text-stroke"> 
+                                    <text text-anchor="middle" x="50%" y="100%">Canvas</text>
+                                </symbol>
+                            
+                                <g>
+                                    <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
+                                    <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
+                                    <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
+                                    <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
+                                    <use xlink:href="#dnxt-text-stroke" class="dnxt-text-stroke-animation-text"></use>
+                                </g>
+                            </svg>
+                            <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">Latest Sweatshirts</h2>
+                            <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">Collections for Summer Clothes</p>
+                            <div class="button wow fadeOutUp">
+                                <a href="# " class="btn-default btn canvas_btn">Shop Men</a>
+                                <a href="# " class="btn-default btn canvas_btn">Shop Women</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="icon_abouts">
+            <li class="about_img bgiconcolor">
+                <a class="btn_custom Get_apac aboutimg" href="#">
+                    <i class="icon_one fa fa-facebook"></i>
+                    <i class="icon_one fa fa-facebook"></i>
+                </a>
+
+            </li>
+            <li class="about_img bgiconcolor2">
+                <a class="btn_custom Get_apac aboutimg " href="#">
+                    <i class="icon_one fa fa-instagram"></i>
+                    <i class="icon_one fa fa-instagram "></i>
+                </a>
+
+            </li>
+            <li class="about_img bgiconcolor3">
+                <a class="btn_custom Get_apac aboutimg" href="#">
+                    <i class="icon_one fa fa-youtube-play"></i>
+                    <i class="icon_one fa fa-youtube-play"></i>
+                </a>
+
+            </li>
+        </ul>
+        <div class="sets_canvas">
+            <button type="button" class="canvas_bttn" data-toggle="modal" data-target="#exampleModal">
+                <i class="fa fa-cogs"></i>
+            </button>
+            <!-- <div class="color_satting">
+                <div class="widget">
+                    <a href="#" class="btn btn-secondary text-uppercase font-primary">Get Canvas Now</a>
+                    <div class="line line-sm"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-6">
+                            <a href="#" class="btn btn-outline-secondary btn-block">Dark</a>
+                        </div>
+                    </div>
+
+                    <div class="line line-sm"></div>
+                    <h4>Preloaders Styles</h4>
+                    <div class="btn-container">
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="1">1</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="2">2</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="3">3</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="4">4</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="5">5</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="6">6</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="7">7</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="8">8</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="9">9</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="10">10</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="11">11</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="12">12</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="13">13</button>
+                        <button class="btn btn-outline-secondary btn-sm preloader-demo" data-loader="14">14</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam
+                        dolor sit amet consectetur, adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor
+                        sit amet consectetur, adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit
+                        amet consectetur, adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit amet
+                        consectetur, adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit amet consectetur,
+                        adipisicing elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit amet consectetur, adipisicing
+                        elit. Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit amet consectetur, adipisicing elit.
+                        Voluptatum consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expeditam dolor sit amet consectetur, adipisicing elit. Voluptatum
+                        consequuntur aperiam sequi tenetur deleniti facilis praesentium soluta? Consequuntur, quasi illo. Id distinctio fugit, sapiente aut nam temporibus sint quam expedita.</p>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <!---end banner worp-->
+    <section class="Collection_worp">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="collection_mainHed">
+                        <h3 class="Collection_hed">Fresh Collection of 2019</h3>
+                        <p class="Collection_pra">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aspernatur repudiandae nobis earum voluptate id adipisci nostrum mollitia, ipsam, asperiores, soluta dolorem facere exercitationem laborum. Magni mollitia laudantium
+                            vel tempore.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card collectionCard">
+                        <div class="imgcad"><img class="img-fluid" src="./assets/imgs/collectiomn/outerwear.jpg" alt="img"></div>
+                        <div class="card-body card_body">
+                            <h5 class="card-title offer">50% Off</h5>
+                            <h5 class="card-title">Outerwear</h5>
+                            <p class="card-text cardpra">This is a wider card as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="card_botton">
+                                <a href="# " class=" canvas_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card collectionCard">
+                        <div class="imgcad"><img class="img-fluid" src="./assets/imgs/collectiomn/footwear.jpg" alt="img"></div>
+                        <div class="card-body card_body">
+                            <h5 class="card-title offer">50% Off</h5>
+                            <h5 class="card-title">Footwear</h5>
+                            <p class="card-text cardpra">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card_botton">
+                                <a href="# " class="canvas_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card collectionCard">
+                        <div class="imgcad"><img class="img-fluid" src="./assets/imgs/collectiomn/workout.jpg" alt="img"></div>
+
+                        <div class="card-body card_body">
+                            <h5 class="card-title offer">30% Off</h5>
+                            <h5 class="card-title">Sportswear</h5>
+                            <p class="card-text cardpra">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card_botton ">
+                                <a href="# " class=" canvas_btn">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="allClactions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="Clactionmanu">
+                        <ul class="mainManu list-unstyled items-nav sticky-sidebar">
+                            <li>
+                                <a href="#" class="manu_list text-dark font-weight-semibold">All Collections</a>
+                            </li>
+                            <li class=" no-divider">
+                                <a href="#" class="manu_list text-dark font-weight-semibold">New Arrivals</a></li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Tops</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Skirts</a></li>
+                            <li><a href="#">Sportswear</a></li>
+                            <li><a href="#">Shorts</a></li>
+                            <li><a href="#">Trousers</a></li>
+                            <li><a href="#">Sweat-shirts</a></li>
+                            <li><a href="#">Sweaters</a></li>
+                            <li><a href="#">Flats</a></li>
+                            <li><a href="#">Sandals</a></li>
+                            <li><a href="#">Loafers &amp; Oxfords</a></li>
+                            <li><a href="#">Heels</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="clactions">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="Claction_Main activess">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/1-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/1-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Black Sports Shoe</a></h3>
+                                            <span><a href="#">Nike</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/2-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/2-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Black Sports Shoe</a></h3>
+                                            <span><a href="#">Nike</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/3-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/3-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/3-3.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/3-4.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Men Black Sweatshirt
+                                                </a></h3>
+                                            <span><a href="#">Sweatshirt</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/4-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/4-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Roundneck T-shirt
+                                                </a></h3>
+                                            <span><a href="#">T-shirt</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/5-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/5-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Women Sports Pant
+                                                </a></h3>
+                                            <span><a href="#">Trousers</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/6-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/6-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Men White Escaper SL Running Sports Shoes
+                                                </a></h3>
+                                            <span><a href="#">Sports Shoes</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$21.49</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/7-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/7-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">The Cotton Weave Shirtdress
+                                               </a></h3>
+                                            <span><a href="#">Women Dress</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$78</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Navi Blue Jeans
+                                                </a></h3>
+                                            <span><a href="#">Denim</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$78</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="Claction_Main">
+                                    <div class="flixlider">
+                                        <div class="flex_vewport">
+                                            <div class="slied_worp">
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/9-1.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/9-2.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="slider_item">
+                                                    <a href="#">
+                                                        <img class="img-fluid" src="./assets/imgs/collectiomn/9-3.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="butn">
+                                            <a href="#" class="clec_button cart-btn button button-white button-light"><i class="fa fa-plus"></i>Add to Cart</a>
+                                        </div>
+                                    </div>
+                                    <div class="claction_title product-desc">
+                                        <div class="product-title">
+                                            <h3 class="prodact_h3"><a href="demo-store-product-single.html">Navi Blue Jeans
+                                                </a></h3>
+                                            <span><a href="#">Denim</a></span>
+                                        </div>
+                                        <div class="product-price"><ins>$78</ins></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="vew_worp">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="travel_main">
+                        <div><img src="./assets/imgs/collectiomn/travel.jpg" alt="image" class="mb-4 img-fluid travelimg"></div>
+                        <h4 class="travelhed"><a href="#">Want to travel? Great Stuffs for Travel</a></h4>
+                        <p class="travelpra">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque eveniet dolorem, porro earum. Eius, corrupti provident iusto modi sunt.</p>
+                        <a href="#" class="stretched-link btn"><u>View Details</u> <i class="icon "></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="travel_main">
+                        <div><img src="./assets/imgs/collectiomn/store.jpg" alt="image" class="mb-4 img-fluid travelimg"></div>
+                        <h4 class="travelhed"><a href="#">Want to travel? Great Stuffs for Travel</a></h4>
+                        <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque eveniet dolorem, porro earum. Eius, corrupti provident iusto modi sunt.</p>
+                        <p class="location"><i class="icon-map-marker-alt"></i> <strong>Headquarters: </strong><a href="#" class="text-black-50 under btn-link"> 795 Folsom Ave, Suite 600 San Francisco, CA 94107</a></p>
+                        <a href="#" class="stretched-link btn"><u>View Details</u> <i class="icon "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscrip_worp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner_main">
+                        <div class="bannerInner">
+                            <h2 class="banne_hed wow fadeOutUp" data-wow-duration="2s">Subscribe Now</h2>
+                            <p class="banner_pra wow fadeOutUp" data-wow-duration="2s">Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                            <div class="button wow fadeOutUp">
+                                <form action="subscribe.php" method="post" class="mt-1 input-group input-group-lg mb-0" novalidate="novalidate">
+                                    <input type="email" id="widget-subscribe-form-2-email" name="widget-subscribe-form-email" class="form-control required email rounded-0 border-0" placeholder="Enter your Email Address">
+
+                                    <div class="input-group-append">
+                                        <button class="btn btn-dark bg-color rounded-0 text-uppercase font-weight-bold" type="submit" style="font-size: 16px">Subscribe Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contract_worp">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="contract_hed text-uppercase">Shipping Worldwide</h4>
+                    <p class="contract_pra">Minimum $999 for free Shipping. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio sequi natus eveniet, dicta magni! Modi nihil quis quos at mollitia.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="contract_hed text-uppercase">Free Returns</h4>
+                    <p class="h6 font-weight-bold">Within 30 days Guarantee</p>
+                    <p class="contract_pra">Synergistically repurpose ethical value and backend paradigms. Holisticly architect effective expertise for installed base e-markets.</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <h4 class="contract_hed text-uppercase">Customer Service</h4>
+                    <p class="contract_pra">Odio sequi natus eveniet, dicta magni! Modi nihil quis quos at mollitia.</p>
+                    <abbr title="Phone Number"><strong>Phone:</strong></abbr> (+0)1518404335<br>
+                    <abbr title="Fax"><strong>Fax:</strong></abbr> (+0) 11 2222 3333<br>
+                    <abbr title="Email Address"><strong>Email:</strong></abbr>sudammondal02@gmail.com<br>
+                    <div class="contract_item">
+                        <ul class="icon_abouts">
+                            <li class="about_img bgiconcolor">
+                                <a class="btn_custom Get_apac aboutimg" href="#">
+                                    <i class="icon_one fa fa-facebook"></i>
+                                    <i class="icon_one fa fa-facebook"></i>
+                                </a>
+
+                            </li>
+                            <li class="about_img bgiconcolor2">
+                                <a class="btn_custom Get_apac aboutimg " href="#">
+                                    <i class="icon_one fa fa-instagram"></i>
+                                    <i class="icon_one fa fa-instagram "></i>
+                                </a>
+
+                            </li>
+                            <li class="about_img bgiconcolor3">
+                                <a class="btn_custom Get_apac aboutimg" href="#">
+                                    <i class="icon_one fa fa-youtube-play"></i>
+                                    <i class="icon_one fa fa-youtube-play"></i>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="contract_hed text-uppercase">Our Stores</h4>
+                    <address class="contract_pra">
+                        <strong>Melbourne Store:</strong><br>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                    </address>
+
+                    <address class="mb-3">
+                        <strong>Sydney Store:</strong><br>
+                        795 Folsom Ave, Suite 600<br>
+                        San Francisco, CA 94107<br>
+                    </address>
+                    <abbr title="Time"><strong>Timing:</strong></abbr> Every day: 10am – 7pm<br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="preaum">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="preaum_main">
+                    <div class="col-md-7">
+                        <p class="mb-0 text-muted">Conveniently network effective total linkage via intermandated opportunities. Distinctively <a href="#"><u>sudammondal02@gmail.com</u></a> premium products.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="mobil mt-3 mt-md-0">
+                            <h2 class="h1 font-weight-bold ls--1 color"><a href="#">(+0) 1518404335</a></h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_worp">
+        <div class="container-fluid">
+            <div class="footer_widgets">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="widget">
+                            <h4 class="ft_head">Features</h4>
+                            <ul class="list-unstyled iconlist ml-0">
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Paid with Moblie</a></li>
+                                <li><a href="#">Status</a></li>
+                                <li><a href="#">Changelog</a></li>
+                                <li><a href="#">Contact Support</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="widget">
+                            <h4 class="ft_head">Support</h4>
+                            <ul class="list-unstyled iconlist ml-0">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="widget">
+                            <h4 class="ft_head">Trending</h4>
+                            <ul class="list-unstyled iconlist ml-0">
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Forums</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6">
+                        <div class="widget">
+                            <h4 class="ft_head">Get to Know us</h4>
+                            <ul class="list-unstyled iconlist ml-0">
+                                <li><a href="#">Corporate</a></li>
+                                <li><a href="#">Agency</a></li>
+                                <li><a href="#">eCommerce</a></li>
+                                <li><a href="#">Personal</a></li>
+                                <li><a href="#">OnePage</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="widget">
+                            <h4 class="ft_head">Instagram Feed</h4>
+                            <div id="instagram-photos" class="instagram-photos masonry-thumbs grid-5" data-user="blog.canvastemplate" data-count="10"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="up_icon">
+                        <a href="#home">
+                            <i class="fa fa-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container-fluid clearfix">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copypra"> Copyrights © 2014 All Rights Reserved by Canvas Inc.</p>
+                    <div class="copy_angor copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+
+                </div>
+                <div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
+                    <ul class="list-unstyled d-flex flex-row mb-2 clearfix">
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/visa.svg" alt="Visa" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/mc.svg" alt="Master Card" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/ae.svg" alt="American Express" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/pp.svg" alt="PayPal" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/sk.svg" alt="Skrill" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/2co.svg" alt="2CheckOut" width="34"></li>
+                        <li class="img-fluid mr-2"><img src="./assets/imgs/copyright/wu.svg" alt="Western Union" width="34"></li>
+                    </ul>
+                    <div class="copyrights_menu copyright-links clearfix">
+                        <a href="#">About</a>/<a href="#">Features</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/imagelightbox.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

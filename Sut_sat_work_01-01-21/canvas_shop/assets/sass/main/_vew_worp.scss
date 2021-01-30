@@ -1,0 +1,52 @@
+.vew_worp {
+    margin-top: 60px;
+    .travel_main {
+        margin-bottom: 40px;
+        .travelhed {
+            margin-bottom: 0.5rem;
+            font-family: 'Karla', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 1.5;
+            a {
+                text-decoration: none;
+                color: #222222;
+            }
+        }
+        .travelpra {
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        .stretched-link {
+            cursor: pointer;
+            font-weight: 600;
+            padding: 0;
+            display: inline-block;
+            color: #212529;
+            text-align: center;
+            vertical-align: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-color: transparent;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            ul {
+                border-botton: 1px solid #212529;
+            }
+            .icon {
+                top: 2px;
+            }
+        }
+        .location {
+            line-height: 1.8;
+            .btn-link {
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}

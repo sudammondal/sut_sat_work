@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #5E5C7F;
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.home_header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5E5C7F;
+}
+
+.vimeopading {
+    padding-top: 50px;
+}

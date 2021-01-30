@@ -1,0 +1,169 @@
+.allClactions {
+    margin: 50px 0;
+    .clactions {
+        .Claction_Main {
+            margin-bottom: 15px;
+            overflow: hidden;
+            position: relative;
+            .topslider {
+                position: absolute;
+                z-index: 2;
+                max-width: 150px;
+                width: 100%;
+                opacity: .5;
+                // transition: opacity .3s linear;
+                .top_slider {
+                    margin-left: -2px;
+                    margin-right: -2px;
+                    .top_slider_item {
+                        padding: 0 2px;
+                        img {}
+                    }
+                }
+            }
+            .flixlider {
+                position: relative;
+                background: url('../imgs/collectiomn/8-1.jpg') no-repeat scroll top left / cover;
+                width: 100%;
+                height: 400px;
+                transition: all .5s ease;
+                &:hover {
+                    background-image: url('../imgs/collectiomn/8-2.jpg');
+                }
+                .flex_vewport {
+                    height: 604.281px;
+                    .slied_worp {
+                        .slider_item {
+                            a {
+                                display: block;
+                                img {
+                                    width: 100%;
+                                    height: 400px
+                                }
+                                .main_img {}
+                            }
+                        }
+                        .slick-arrow {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            background-color: rgba(255, 255, 255, 0.8);
+                            z-index: 2;
+                            transition: color .4s ease;
+                        }
+                        .slick-prev {
+                            left: 5px;
+                        }
+                        .slick-next {
+                            right: 5px;
+                        }
+                        .slick-prev:before,
+                        .slick-next:before {
+                            font-family: 'slick';
+                            font-size: 19px;
+                            line-height: 1;
+                            opacity: .75;
+                            color: rgba(0, 0, 0, 0.8);
+                            -webkit-font-smoothing: antialiased;
+                            -moz-osx-font-smoothing: grayscale;
+                        }
+                        .slick-prev,
+                        .slick-next {
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: all 0.5s ease;
+                            &:hover {
+                                background-color: #5e5e5f;
+                                &::before {
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .butn {
+                    .clec_button {
+                        transition: all .5s ease;
+                        position: absolute;
+                        display: block;
+                        opacity: 0;
+                        bottom: 7px;
+                        left: 0;
+                        right: 0;
+                        width: calc(100% - 12px);
+                        max-width: 100%;
+                        margin: 0 auto;
+                        padding: 8px 0;
+                        height: auto;
+                        text-align: center;
+                        background-color: #eee;
+                        color: #333;
+                        text-shadow: none;
+                        text-decoration: none;
+                        i {
+                            font-size: 16px;
+                            margin-right: 8px;
+                        }
+                        &:hover {
+                            color: #ffffff;
+                            background-color: #444;
+                        }
+                    }
+                }
+            }
+            .claction_title {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 3px;
+                .product-title {
+                    margin-bottom: 7px;
+                    .prodact_h3 {
+                        font-size: 17px;
+                        font-weight: 700;
+                        margin: 0;
+                        font-family: 'Karla', sans-serif;
+                        a {
+                            color: #333;
+                            text-decoration: none;
+                        }
+                    }
+                    span {
+                        a {
+                            text-decoration: none;
+                            color: #999;
+                        }
+                    }
+                }
+                .product-price {
+                    margin-bottom: 0;
+                    font-size: 15px;
+                    ins {
+                        font-weight: 700;
+                        color: #444;
+                        text-decoration: none;
+                    }
+                }
+            }
+            &.activess,
+            &:hover {
+                .flixlider {
+                    .flex_vewport {
+                        .slied_worp {
+                            .slick-prev,
+                            .slick-next {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    .butn {
+                        .clec_button {
+                            opacity: 1;
+                            z-index: 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

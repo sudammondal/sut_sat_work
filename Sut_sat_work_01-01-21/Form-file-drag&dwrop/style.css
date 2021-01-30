@@ -1,0 +1,70 @@
+input[type=file] {
+    display: none;
+}
+
+.formimg {
+    max-width: 40px;
+    width: 100%;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+label .lebelspn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+label .lebelspn span {
+    color: #a9998b;
+}
+
+label .lebelspn span:hover {
+    border-bottom: 1px solid #f4943c;
+    color: #f4943c;
+}
+
+.up-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+    margin: 0;
+    border: 1px dashed #ccc;
+    background: #f2f3f5;
+    padding: 20px 10px;
+    border-radius: 10px;
+    height: 155px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+/* dtaeg and drop */
+
+#div1,
+#div2 {
+    float: left;
+    width: 200px;
+    height: 135px;
+    margin: 30px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: #f2f3f5;
+}
+
+.sudam {
+    background-color: red;
+    display: inline-block;
+}

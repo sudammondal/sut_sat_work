@@ -1,0 +1,1129 @@
+@media (min-width: 767px) and (max-width: 1200px) { 
+    .footer {
+        .border_top {
+            .footer_coprit {
+                .up_iconFixd {
+                    right: 15px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 1024px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    .srcbr {
+                        padding-right: 10px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .banner_worp {
+        .imgcamara {
+            top: -175px;
+        }
+        .padePen {
+            right: 230px;
+        }
+        .stapPin2 {
+            position: absolute;
+            bottom: 247px;
+            left: 306px;
+        }
+        .stapPin {
+            bottom: 215px;
+            left: 353px;
+        }
+    }
+    .information {
+        .text_center {
+            max-width: 569px;
+        }
+        .imges {
+            margin-bottom: 0px;
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    max-width: 51%;
+                }
+            }
+        }
+    }
+    .Unique {
+        .castomPading {
+            .heaB {
+                .hed_text {
+                    font-weight: 400;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .cardTitlese_worp {
+        padding: 100px 0;
+    }
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                padding: 57px 30px;
+                .sort_hed {
+                    font-size: 28px;
+                }
+                .sort_pra {
+                    font-size: 12px;
+                } 
+                .sortCuard {
+                    padding: 5px 13px; 
+                }
+            }
+        }
+    }
+}
+
+// media for ipad pro 
+
+@media (max-width: 991px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                
+                .lastC {
+                    margin-left: auto;
+                    .srcbr {
+                        border: transparent;
+                    }
+                    &.mbShow {
+                        display: block;
+                    }
+                    &.mbHide {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .mainContiner {
+                .navbar {
+                    .lastC {
+                        .srcbr {
+                            border: transparent;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    .footerTop {
+        .footPra {
+            .disflx {
+                text-align: center;
+                float: none;
+            }
+        }
+    }
+}
+
+//  media for ipad
+@media (max-width: 823px) {
+    .header {background-color: #fff;
+        .mainContiner {
+            .navbar {
+                .collapse_add {
+                    .ullist {
+                        overflow: scroll;
+                        width: 100%;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .banner_worp {
+        .banner_inner {
+            .banner {
+                .ban_hed {
+                    font-size: 50px;
+                }
+                .ban_pra {
+                    font-size: 12px;
+                }
+                .downloade_now {
+                    font-size: 10px;
+                }
+            }
+        }
+        .imgcamara {
+            display: none;
+        }
+        .imgTree {
+            display: none;
+        }
+        .imgNotbook {
+            display: none;
+        }
+        .imgPad {
+            display: none;
+        }
+        .markerPancil {
+            display: none;
+        }
+        .redPancil {
+            display: none;
+        }
+        .stapPin {
+            display: none;
+        }
+        .stapPin2 {
+            display: none;
+        }
+        .padePen {
+            display: none;
+        }
+    }
+    
+    .wow_fadeIn {
+        padding: 75px 0;
+        .about_button {
+            margin-bottom: 40px;
+            text-align: center;
+            .about {
+                font-size: 10px; 
+            }
+        }
+        .wow_tpra {
+            text-align: center;
+        }
+        .wow_hed {
+            text-align: center;
+            font-size: 30px;
+        }
+        .wow_pra {
+            text-align: center;
+            font-size: 14px;
+            max-width: 100%;
+        }
+
+    }
+    .information {
+        .info_hed {
+            font-size: 27px;
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    max-width: 65%;
+                }
+            }
+        }
+    }
+    .parallax {   padding: 100px 0;
+        .parlex_itm {
+            margin-bottom: 30px;
+        }
+    }
+    .dicover {
+        .disover {
+            max-width: 100%;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .iconBanner {
+            text-align: center;
+            .iconPart{
+                .pra_text_icon {
+                    max-width: 100%;
+                    font-size: 14px;
+                }
+                .hed_text_icon {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+   
+    .Unique {
+        .castomPading {
+            .heaB {
+                .hed_text {
+                    max-width: 100%;
+                    text-align: center;
+                    font-size: 33px;
+                }
+            }
+        }
+    }
+    .counting_worp {
+        .costom_class {
+            .counting_worp {
+                margin: 15px 0;
+            }
+        }
+    }
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                text-align: center;
+                padding: 108px 142px;
+                .sort_hed {
+                    max-width: 100%;
+                }
+                .sort_pra { 
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .iconItems {
+        padding: 70px 0;
+        .addcastom {
+            margin: 20px 0;
+            text-align: center;
+            .iconprag {
+                max-width: 80%;
+                margin: 0 auto;
+            }
+        }
+    }
+   
+    .cardTitlese_worp {
+        padding: 100px 0;
+        .marginauto {
+            .cardHed {
+                font-size: 27px;
+                line-height: 35px;
+            }
+        } 
+        .cardGrup {
+            margin-bottom: 30px;
+        }
+    }
+   
+    .footer {
+        .footPra {
+            p {
+                font-size: 14px;
+            }
+            .disflx {
+                span {
+                    font-size: 14px;
+                    margin: 0 5px;
+                }
+                .ftrlink {
+                    .linkFooter,
+                    
+                    &:last-child {
+                        margin: 0 3px;
+                    }
+                    &:first-child {
+                        margin: 0 5px 0 0;
+                    }
+                }
+            }
+        }
+     
+        .border_top {
+            text-align: center;
+            .footer_coprit {
+                .copyrit_flot {
+                    float: none;
+
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerTop .footPra .disflx {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    .iCon {
+                        display: none;
+                    }
+                    .srcbr {
+                        display: block;
+                        border: 0;
+                        padding: 0;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .banner_worp {
+        .banner_inner {
+            .banner {
+                .ban_hed {
+                    font-size: 59px;
+                    margin-bottom: 10px;
+                }
+                .ban_pra {
+                    font-size: 14px;
+                    margin-bottom: 30px;  
+                }
+                .downloade_now {
+                    padding: 13px 25px;
+                    text-decoration: none;
+                    font-size: 12px; 
+                }
+            }
+        }
+    }
+    .wow_fadeIn { padding: 80px 0;
+        .wow_tpra {
+            text-align: center;
+        }
+        .wow_hed {
+            text-align: center;
+        }
+        .wow_pra {
+            text-align: center;
+            max-width: 100%;
+        }
+        .about_button {
+            text-align: center;
+            margin-bottom: 40px;
+            .about {
+                margin-bottom: 20px;
+            }
+        }
+    }
+   
+    .information {
+        .info_hed {
+            line-height: 35px;
+            margin: 15px 0;
+            font-size: 27px;
+        }
+        .info_pra {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    max-width: 60%;
+                }
+            }
+        }
+    }
+  
+    .dicover {
+        .disover {
+            max-width: 100%;
+            text-align: center;
+            .wow_hed {
+                font-size: 27px; 
+            }
+            .wow_pra {
+                padding-right: 0px; 
+            }
+        }
+        .iconBanner { text-align: center;
+            .iconPart {
+                .pra_text_icon {
+                    max-width: 100%; 
+                    font-size: 14px; 
+                }
+            }
+        }
+    }
+ 
+    .Unique {
+        .castomPading {
+            padding: 60px 30px;
+            .heaB {
+                .hed_text {
+                    max-width: 100%;
+                    font-size: 38px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .counting_worp {
+        .costom_class {
+            .counting_worp {
+                margin: 15px 0;
+            }
+        }
+    }
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                padding: 100px 3px;
+                text-align: center;
+                .sort_pra {
+                    max-width: 389px;
+                    margin: auto ;
+                }
+                .sort_hed {
+                    max-width: 100%;
+                }
+                .sort_button {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    
+    .iconItems {
+        padding: 40px 0;
+        .addcastom {margin: 20px 0;
+            .iconprag {
+                font-size: 14px;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .cardTitlese_worp {
+        padding: 75px 0;
+    }
+    .cardTitlese_worp {
+        .marginauto {
+            .cardHed {
+                font-size: 30px;
+            }
+        }
+        .cardGrup{
+            margin-bottom: 30px;
+        }
+    }
+    
+    .footer {
+        .footPra {
+            .imgfter {
+                width: 90px;
+            }
+            img
+            p {
+                font-size: 14px;
+            }
+            .disflx {
+                font-size: 14px;
+                margin-left: 5px;
+                margin-right: 0px;
+                span {
+                    margin: 0 1px;
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -19px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 736px) { 
+    .header {
+        background-color: #fff;
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    right: 65px;
+                }
+            }
+        }
+    }
+    .Unique {
+        text-align: center;
+    }
+    .footerTop {
+        .footPra {
+            p {
+                text-align: center;
+            }
+        }
+    }
+    .footer { padding: 40px 0 40px 0;
+        .footPraLeft {
+            text-align: center;
+        }
+        .footPra {
+            padding: 20px 0 20px 0;
+            text-align: center;
+            .disflx {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+        .footPraRight {
+            float: none;
+        }
+        .border_top {
+            text-align: center;
+            .footer_coprit {
+                .copyrit {
+                    padding: 25px 0 0 0;
+                }
+                .copyrit_flot {
+                    float: none;
+                }
+            }
+        }
+        .aplien_item {
+            form {
+                .from_manu {
+                    .imput_button {
+                        .input_email {
+                            padding: 0 45px 0 15px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -79px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 731px) { 
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerTop .footPra p {
+        text-align: center;
+    }
+}
+@media (max-width: 667px) {
+ 
+}
+@media (max-width: 640px) {
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -85px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+}
+@media (max-width: 568px) {
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -89px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+// media for mobile large
+
+@media (max-width: 420px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    right: 60px;
+                }
+            }
+        }
+    }
+    
+    .banner_worp {
+        .banner_inner {
+            .banner {
+                .ban_pra {
+                    font-size: 12px;
+                }
+                .ban_hed {
+                    font-size: 52px;
+                }
+                .downloade_now {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    
+    .wow_fadeIn {
+        .wow_hed {
+            font-size: 20px;
+        }
+        .wow_tpra {
+            font-size: 12px; 
+        }
+        .about_button {
+            .about {
+                padding: 4px 23px; 
+            }
+        }
+    }
+    .information {
+        .info_hed {
+            font-size: 20px;
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    font-size: 30px; 
+                }
+            }
+        }
+    }
+   
+    .dicover {
+        .disover {
+            .wow_hed {
+                font-size: 25px;
+            }
+            .wow_pra {
+                font-size: 14px;
+            }
+            .about {
+                font-size: 10px;
+            }
+        }
+    }
+    .Unique {
+        .castomPading {
+            .heaB {
+                .hed_text {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+   
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                .sort_tpra {
+                    font-size: 12px;
+                }
+                .sort_hed {
+                    font-size: 27px;
+                    margin-top: 5px;
+                }
+                .sort_button {
+                    .sortCuard {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+   
+    .iconItems {
+        .addcastom {
+            .iconprag {
+                font-size: 12px;
+            }
+        }
+    }
+    .cardTitlese_worp {
+        .marginauto {
+            .cardHed {
+                font-size: 27px;
+            }
+        }
+    }
+    .footer {padding: 40px 0 40px 0;
+        .footPraLeft {
+            text-align: center;
+        }
+        .footPra { 
+            padding: 20px 0 20px 0;
+            text-align: center;
+            .disflx {
+                display: inline-block;
+            }
+        }
+        .footPraRight {
+            float: none;
+        }
+        .border_top {
+            text-align: center;
+            .footer_coprit {
+                .copyrit {
+                    padding: 25px 0 0 0;
+                }
+                .copyrit_flot {
+                    float: none;
+                }
+            }
+
+        }
+    }
+    .footerTop {
+        .footPra {
+            .disflx {
+                justify-content: center;
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -39px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .border_top {
+            .footer_coprit {
+                .up_iconFixd {
+                    a {
+                        padding: 9px 11px;
+                    }
+                }
+            }
+        }
+    }
+    .footerTop {
+        .footPra p {
+            text-align: center;
+        }
+    }
+
+}
+
+// media for mobile small
+@media (max-width: 375px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .logoBrand {
+                    width: 100px;
+                }
+                .lastC {
+                    right: 70px;
+                }
+            }
+        }
+    }
+    
+    .banner_worp {
+        .banner_inner {
+            .banner {
+                .ban_hed {
+                    font-size: 50px;
+                }
+                .downloade_now {
+                    padding: 10px 22px;
+                }
+            }
+        }
+    }
+   
+    .wow_fadeIn {
+        .about_button {
+            .about {
+                padding: 4px 20px;
+            }
+        }
+        .blogar_itm {
+            .bl_pra {
+                font-size: 12px;
+            }
+        }
+    }
+    .parallax {
+        .parlex_itm {
+            .parl_prag {
+                font-size: 14px;
+            }
+        }
+    }
+    .information {
+        .info_hed {
+            font-size: 18px;
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    max-width: 96%;
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    .dicover {
+        .disover { margin-bottom: 60px;
+            .wow_pra {
+                font-size: 12px;
+            }
+            .about {
+                padding: 4px 20px;
+            }
+        }
+        .iconBanner {
+            .iconPart {
+                .pra_text_icon {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .Unique {
+        .castomPading {
+            .heaB {
+                .hed_text {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                padding: 100px 3px;
+                text-align: center;
+                .sort_hed {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    .cardTitlese_worp {
+        .marginauto {
+            .cardHed {
+                font-size: 23px;
+            }
+        }
+    }
+    .footer {
+        .footPra {
+            .imgfter {
+                width: 100px;
+            }
+        }
+        .border_top {
+            .footer_coprit {
+                .copyrit {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerTop {
+        .footPra p {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    right: 52px;
+                    .iCon {
+                        .FTGQ {
+                            margin-left: 3px;
+                        }
+                    }
+                    .srcbr {
+                        padding-right: 10px;
+                        margin-right: 5px;
+                    }
+                }
+                .logoBrand {
+                    width: 100px;
+                }
+                
+                
+            }
+        }
+    }
+   
+    .wow_fadeIn {
+        .blogar_itm {
+            a {
+                .blogar {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .amazing_projects {
+        .amazingHeader {
+            .projects_head {
+                .amazing_head {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .dicover {
+        .disover {
+            .ban_hed {
+                    font-size: 48px;
+                }
+            .wow_hed {
+                font-size: 17px;
+            }
+            .wow_tpra {
+                font-size: 13px;
+            }
+        }
+    }
+  
+    .Unique {
+        .castomPading {
+            .heaB {
+                .hed_text {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .shortcodes {
+        .shortBaner {
+            .sortManu {
+                .sort_pra {
+                    max-width: 250px;
+                }
+                .sort_hed {
+                    font-size: 22px;
+                }
+                .sort_button {
+                    .sortCuard {
+                        padding: 4px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .cardTitlese_worp {
+        .marginauto {
+            .cardHed {
+                font-size: 20px;
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

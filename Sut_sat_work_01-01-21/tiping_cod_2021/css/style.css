@@ -1,0 +1,68 @@
+/*=== fonts ====*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
+body {
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 0;
+    font: 400 15px/26px "Poppins", sans-serif;
+    color: #838999;
+}
+
+
+/*=============== banner_area css ===============*/
+
+.banner_area {
+    background: #f4f5f9;
+    background-attachment: fixed;
+    position: relative;
+    padding: 290px 0 388px;
+    overflow: hidden;
+}
+
+.banner_area .banner_content .banner_title {
+    font-size: 55px;
+    line-height: 64px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 18px;
+    font-family: "Poppins", sans-serif;
+    background-image: -moz-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -webkit-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -ms-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+mark {
+    background-image: -moz-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -webkit-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -ms-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span {
+    background-image: -moz-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -webkit-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    background-image: -ms-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner_area .banner_content .banner_title .typed-cursor {
+    font-weight: 400;
+}
+
+mark {
+    color: inherit;
+    padding: 0;
+    background: 0 0;
+    background-image: linear-gradient(120deg, #f7dbfc 0%, #f7dbfc 100%);
+    background-repeat: no-repeat;
+    background-size: 0 .3em;
+    background-position: 0 80%;
+    position: relative;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form>
+        <div class="up-img">
+            <img class="formimg" src="./img/up-img.2146cdb3.svg" alt="img">
+
+            <label for="files"> 
+                <span class="lebelspn">Drop files to upload <br/>
+                or <span>browse</span> 
+            </span>
+            </label>
+            <input type="file" id="files" name="files" multiple>
+
+        </div>
+    </form>
+    <!-- drage and drop-->
+    <h2>-------------------------------------------------------------------</h2>
+    <h2>Drag and Drop</h2>
+    <p>Drag the image back and forth between the two div elements.</p>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="./img/up-img.2146cdb3.svg" draggable="true" ondragstart="drag(event)" id="drag1" width="100" height="70">
+        <div class="sudam" draggable="true" ondragstart="drag(event)" id="drag2">Sudam Mondal</div>
+    </div>
+
+
+    <span id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </span>
+
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</body>
+
+</html>

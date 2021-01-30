@@ -1,0 +1,84 @@
+.demo_titel {
+  margin: 50px 0;
+}
+.demo_titel .mainDemo {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.demo_titel .mainDemo .main_demo {
+  padding: 15px;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+.demo_titel .mainDemo .main_demo .title {
+  font-size: 30px;
+  margin: 0;
+  text-transform: capitalize;
+  color: #716a6a;
+}
+.demo_titel .mainDemo .min_manu {
+  background: #ffffff;
+  padding: 20px;
+}
+.demo_titel .mainDemo .min_manu .manu {
+  margin-bottom: 15px;
+  display: flex;
+  background: #d9ebffe0;
+  padding: 15px;
+  position: relative;
+}
+.demo_titel .mainDemo .min_manu .manu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 40px 0 0;
+  border-color: #38ca1e transparent transparent transparent;
+}
+.demo_titel .mainDemo .min_manu .manu::after {
+  position: absolute;
+  content: "";
+  top: 23px;
+  right: 225px;
+  width: 5px;
+  height: 135px;
+  background-color: #f7f6f6;
+  border-radius: 20px;
+}
+.demo_titel .mainDemo .min_manu .manu .icon_ranking {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  line-height: 0;
+}
+.demo_titel .mainDemo .min_manu .manu .manufast {
+  margin: 40px 0;
+}
+.demo_titel .mainDemo .min_manu .manu .manufast .fast_title {
+  text-transform: capitalize;
+  color: #716a6a;
+  font-size: 20px;
+}
+.demo_titel .mainDemo .min_manu .manu .manusecnd {
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.demo_titel .mainDemo .min_manu .manu .manusecnd .para {
+  padding-right: 20px;
+}
+.demo_titel .mainDemo .min_manu .manu:last-child {
+  margin-bottom: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+}
